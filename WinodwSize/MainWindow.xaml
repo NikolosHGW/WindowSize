@@ -1,0 +1,74 @@
+﻿<Window x:Class="WinodwSize.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WinodwSize"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance {x:Type local:MainVM}, IsDesignTimeCreatable=True}"
+        Title="MainWindow" Name="mainWindow" Height="700" Width="1600">
+    <Border>
+        <ScrollViewer HorizontalScrollBarVisibility="Visible">
+            <Grid>
+                <Image Source="Resources/tps.png" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <!--<Button x:Name="valve1" Opacity="1" RenderTransformOrigin="0.537,0.569" Width="48" Height="26" Margin="432,334,1103,359">
+                    <Image x:Name="valveImage1" Source="Resources/valveCLS.png" RenderTransformOrigin="0.532,0.489" Height="22"/>
+                </Button>-->
+                <ItemsControl ItemsSource="{Binding Buttons}" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <Grid/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemContainerStyle>
+                        <Style TargetType="ContentPresenter">
+                            <Setter Property="Margin" Value="{Binding ButtonMargin}"/>
+                            <Setter Property="ContentTemplate">
+                                <Setter.Value>
+                                    <DataTemplate>
+                                        <Button Width="48" Height="26" Command="{Binding DataContext.StateCommand, ElementName=mainWindow}" CommandParameter="{Binding}">
+                                            <Image Style="{StaticResource imageHor}" Height="22"/>
+                                        </Button>
+                                    </DataTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ItemsControl.ItemContainerStyle>
+                </ItemsControl>
+                <ItemsControl ItemsSource="{Binding ButtonsPmpR}" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <Grid/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemContainerStyle>
+                        <Style TargetType="ContentPresenter">
+                            <Setter Property="Margin" Value="{Binding ButtonMargin}"/>
+                            <Setter Property="ContentTemplate">
+                                <Setter.Value>
+                                    <DataTemplate>
+                                        <Button Width="41" Height="38" Command="{Binding DataContext.StateCommand, ElementName=mainWindow}" CommandParameter="{Binding}">
+                                            <Image Style="{StaticResource imagePump}" Width="41" Height="37"/>
+                                        </Button>
+                                    </DataTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ItemsControl.ItemContainerStyle>
+                </ItemsControl>
+                <!--ВРЕМЕННЫЙ КОД ДЛЯ ИНФО-->
+                <!--<TextBlock Text="Button[4]" Width="50" Height="15" Margin="702,232,831,465" Opacity="1"/>-->
+                <TextBlock Text="Button[0]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="437,131,1016,552" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Button[1]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="397,233,1071,462" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Button[2]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="558,282,910,413" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Button[3]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="702,232,831,465" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Button[4]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="913,236,620,463" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Button[5]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="914,547,619,153" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Button[6]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="701,545,832,156" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Button[7]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="595,498,938,205" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Button[8]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="430,316,1103,389" Opacity="{Binding Opa}"/>
+                <Button x:Name="INFO" Content="Info" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding InfoCommand}" Margin="242,145,1251,545"/>
+            </Grid>
+        </ScrollViewer>
+    </Border>
+</Window>

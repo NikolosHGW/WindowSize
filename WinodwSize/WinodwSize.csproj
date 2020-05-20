@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\blades.png" />
+    <None Remove="Resources\nasos.png" />
+    <None Remove="Resources\nasos_green.png" />
+    <None Remove="Resources\Ostanov.mp3" />
+    <None Remove="Resources\Start.mp3" />
+    <None Remove="Resources\tps.png" />
+    <None Remove="Resources\valveCLS%28v%29.png" />
+    <None Remove="Resources\valveCLS.png" />
+    <None Remove="Resources\valveOPN%28v%29.png" />
+    <None Remove="Resources\valveOPN.png" />
+    <None Remove="Resources\Zapusk.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\blades.png" />
+    <Resource Include="Resources\nasos.png" />
+    <Resource Include="Resources\nasos_green.png" />
+    <Resource Include="Resources\Ostanov.mp3" />
+    <Resource Include="Resources\Start.mp3" />
+    <Resource Include="Resources\tps.png" />
+    <Resource Include="Resources\valveCLS(v).png" />
+    <Resource Include="Resources\valveCLS.png" />
+    <Resource Include="Resources\valveOPN(v).png" />
+    <Resource Include="Resources\valveOPN.png" />
+    <Resource Include="Resources\Zapusk.mp3" />
+  </ItemGroup>
+
+</Project>
