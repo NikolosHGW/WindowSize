@@ -20,10 +20,29 @@ namespace WinodwSize
             new Button(702,515,833,175), // valve 7 // Button[6]
             new Button(596,515,939,176), // valve 8 // Button[7]
             new Button(432,334,1103,359), // Button[8]
-            //new Button(396, 376), // Button[9]
-            //new Button(267, 310), // Button[10]
-            //new Button(267, 374), // Button[11]
-            //new Button(553, 508), // Button[12]
+            new Button(432,409,1103,286), // Button[9]
+            new Button(305,258,1230,437), // Button[10]
+            new Button(306,335,1235,362), // Button[11]
+            new Button(310,412,1237,286), // Button[12]
+        };
+
+        public ObservableCollection<Button> ButtonsV { get; } = new ObservableCollection<Button>
+        {
+            new Button(685,337,889,373), // valve 9 // ButtonV[0]
+            new Button(763,339,818,373), // valve 10 // ButtonV[1]
+            //new Button(855, 322), // valve 14 // ButtonV[2]
+            //new Button(912, 321), // valve 15 // ButtonV[3]
+            //new Button(165, 292), // valve 16 // ButtonV[4]
+            //new Button(165, 365), // valve 17 // ButtonV[5]
+            //new Button(634, 442), // valve 19 // ButtonV[6]
+            //new Button(633, 319), // valve 20 // ButtonV[7]
+            //new Button(709, 319), // valve 21 // ButtonV[8]
+            //new Button(709, 442), // valve 22 // ButtonV[9]
+            //new Button(1220, 228), // valve 26 // ButtonV[10]
+            //new Button(1135, 326), // valve 27 // ButtonV[11]
+            //new Button(1135, 446), // valve 28 // ButtonV[12]
+            //new Button(1220, 528), // valve 29 // ButtonV[13]
+            //new Button(514, 379), // valve 20 // ButtonV[14]
         };
 
         public ObservableCollection<Button> ButtonsPmpR { get; } = new ObservableCollection<Button>

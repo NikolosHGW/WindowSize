@@ -11,9 +11,21 @@
         <ScrollViewer HorizontalScrollBarVisibility="Visible">
             <Grid>
                 <Image Source="Resources/tps.png" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <!--<Button x:Name="valve1" Opacity="1" RenderTransformOrigin="0.537,0.569" Width="48" Height="26" Margin="432,334,1103,359">
+                <!--<Button x:Name="valve1" Opacity="1" RenderTransformOrigin="0.537,0.569" Width="48" Height="26" Margin="310,412,1237,286">
                     <Image x:Name="valveImage1" Source="Resources/valveCLS.png" RenderTransformOrigin="0.532,0.489" Height="22"/>
                 </Button>-->
+                <!--<Button x:Name="valve9" Opacity="1" RenderTransformOrigin="0.537,0.569" Width="27" Height="15" Margin="763,339,818,373">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-90.00"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                    <Image x:Name="valveImage9" Source="Resources/valveCLS.png" RenderTransformOrigin="0.532,0.489" Height="22"/>
+                </Button>-->
+                <!--ЗАДВИЖКИ ГОРИЗОНТАЛЬНЫЕ-->
                 <ItemsControl ItemsSource="{Binding Buttons}" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <ItemsControl.ItemsPanel>
                         <ItemsPanelTemplate>
@@ -35,6 +47,37 @@
                         </Style>
                     </ItemsControl.ItemContainerStyle>
                 </ItemsControl>
+                <!--ЗАДВИЖКИ ВЕРТИКАЛЬНЫЕ-->
+                <ItemsControl ItemsSource="{Binding ButtonsV}" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <Grid/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemContainerStyle>
+                        <Style TargetType="ContentPresenter">
+                            <Setter Property="Margin" Value="{Binding ButtonMargin}"/>
+                            <Setter Property="ContentTemplate">
+                                <Setter.Value>
+                                    <DataTemplate>
+                                        <Button RenderTransformOrigin="0.537,0.569" Width="27" Height="15" Command="{Binding DataContext.StateCommand, ElementName=mainWindow}" CommandParameter="{Binding}">
+                                            <Button.RenderTransform>
+                                                <TransformGroup>
+                                                    <ScaleTransform/>
+                                                    <SkewTransform/>
+                                                    <RotateTransform Angle="-90.00"/>
+                                                    <TranslateTransform/>
+                                                </TransformGroup>
+                                            </Button.RenderTransform>
+                                            <Image RenderTransformOrigin="0.532,0.489" Style="{StaticResource imageHor}" Height="22"/>
+                                        </Button>
+                                    </DataTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ItemsControl.ItemContainerStyle>
+                </ItemsControl>
+                <!--КНОПКИ НАСОСОВ ПРАВО-->
                 <ItemsControl ItemsSource="{Binding ButtonsPmpR}" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <ItemsControl.ItemsPanel>
                         <ItemsPanelTemplate>
@@ -58,6 +101,16 @@
                 </ItemsControl>
                 <!--ВРЕМЕННЫЙ КОД ДЛЯ ИНФО-->
                 <!--<TextBlock Text="Button[4]" Width="50" Height="15" Margin="702,232,831,465" Opacity="1"/>-->
+                <!--<TextBlock Text="ButtonV[0]" Width="50" Height="15" Margin="652,337,899,374" Opacity="1" RenderTransformOrigin="0.5,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-90.00"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>-->
                 <TextBlock Text="Button[0]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="437,131,1016,552" Opacity="{Binding Opa}"/>
                 <TextBlock Text="Button[1]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="397,233,1071,462" Opacity="{Binding Opa}"/>
                 <TextBlock Text="Button[2]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="558,282,910,413" Opacity="{Binding Opa}"/>
@@ -67,6 +120,20 @@
                 <TextBlock Text="Button[6]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="701,545,832,156" Opacity="{Binding Opa}"/>
                 <TextBlock Text="Button[7]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="595,498,938,205" Opacity="{Binding Opa}"/>
                 <TextBlock Text="Button[8]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="430,316,1103,389" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Button[9]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="430,392,1103,313" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Button[10]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="304,240,1229,467" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Button[11]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="304,317,1235,391" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Button[12]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="307,395,1238,314" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonV[0]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="672,371,879,340" Opacity="{Binding Opa}">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-90.00"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
                 <Button x:Name="INFO" Content="Info" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding InfoCommand}" Margin="242,145,1251,545"/>
             </Grid>
         </ScrollViewer>
