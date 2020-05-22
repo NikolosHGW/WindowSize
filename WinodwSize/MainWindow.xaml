@@ -195,7 +195,8 @@
                 <TextBlock Text="Button[10]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="267,261,1231,492" Opacity="{Binding Opa}"/>
                 <TextBlock Text="Button[11]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="262,340,1236,413" Opacity="{Binding Opa}"/>
                 <TextBlock Text="Button[12]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="264,419,1234,334" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonV[0]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="672,371,879,340" Opacity="1">
+                <!--<TextBlock Text="ButtonSml[0]" Width="79" Height="15" Margin="702,232,831,465" Opacity="1"/>-->
+                <TextBlock Text="ButtonV[0]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="642,397,856,356" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -205,7 +206,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[1]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="785,375,773,338" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[1]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="758,400,740,353" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -215,7 +216,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[2]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="678,494,887,219" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[2]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="647,515,851,238" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -225,7 +226,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[3]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="801,496,771,217" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[3]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="753,517,745,236" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -235,7 +236,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[4]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="908,370,671,347" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[4]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="880,395,618,358" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -245,7 +246,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[5]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1004,370,582,347" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[5]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="970,393,528,360" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -255,7 +256,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[6]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="913,494,680,223" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[6]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="879,514,619,239" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -265,7 +266,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[7]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1015,494,585,225" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[7]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="969,514,529,239" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -275,7 +276,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[8]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1201,378,406,341" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[8]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1173,396,325,357" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -285,7 +286,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[9]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1206,494,408,225" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[9]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1173,514,325,239" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -295,7 +296,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[10]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="237,439,1384,282" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[10]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="157,457,1341,296" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -305,7 +306,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[11]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="245,334,1389,389" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[11]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="157,356,1341,397" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -315,7 +316,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[12]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="602,438,1045,287" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[12]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="520,451,978,302" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -325,7 +326,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[13]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1317,284,343,443" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[13]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1264,292,234,461" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -335,7 +336,7 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Text="ButtonV[14]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1319,604,354,125" Opacity="{Binding Opa}">
+                <TextBlock Text="ButtonV[14]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1263,629,235,124" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
