@@ -11,70 +11,70 @@ namespace WinodwSize
     {
         public ObservableCollection<Button> Buttons { get; } = new ObservableCollection<Button>
         {
-            new Button(437,153,1017,521), // valve 1 // Button[0]
-            new Button(399,252,1071,432), // valve 2 // Button[1]
-            new Button(559,253,911,431), // valve 3 // Button[2]
-            new Button(702,253,833,432), // valve 4 // Button[3]
-            new Button(914,255,621,432), // valve 5 // Button[4]
-            new Button(914,516,621,173), // valve 6 // Button[5]
-            new Button(702,515,833,175), // valve 7 // Button[6]
-            new Button(596,515,939,176), // valve 8 // Button[7]
-            new Button(432,334,1103,359), // Button[8]
-            new Button(432,409,1103,286), // Button[9]
-            new Button(305,258,1230,437), // Button[10]
-            new Button(306,335,1235,362), // Button[11]
-            new Button(310,412,1237,286), // Button[12]
+            new Button(459,178,1070,564), // valve 1 // Button[0]
+            new Button(411,279,1118,463), // valve 2 // Button[1]
+            new Button(582,277,947,465), // valve 3 // Button[2]
+            new Button(697,279,832,463), // valve 4 // Button[3]
+            new Button(919,279,610,463), // valve 5 // Button[4]
+            new Button(919,549,610,193), // valve 6 // Button[5]
+            new Button(697,549,832,193), // valve 7 // Button[6]
+            new Button(583,550,946,192), // valve 8 // Button[7]
+            new Button(411,356,1118,386), // Button[8]
+            new Button(411,436,1118,306), // Button[9]
+            new Button(281,278,1248,464), // Button[10]
+            new Button(276,357,1253,385), // Button[11]
+            new Button(278,436,1251,306), // Button[12]
         };
 
         public ObservableCollection<Button> ButtonsV { get; } = new ObservableCollection<Button>
         {
-            new Button(685,337,889,373), // valve 9 // ButtonV[0]
-            new Button(763,339,818,373), // valve 10 // ButtonV[1]
-            new Button(691,457,897,257), // valve 14 // ButtonV[2]
-            new Button(770,457,825,257), // valve 15 // ButtonV[3]
-            new Button(920,342,682,374), // valve 16 // ButtonV[4]
-            new Button(980,342,629,376), // valve 17 // ButtonV[5]
-            new Button(927,459,689,259), // valve 19 // ButtonV[6]
-            new Button(987,459,636,259), // valve 20 // ButtonV[7]
-            new Button(1214,344,416,376), // valve 21 // ButtonV[8]
-            new Button(1218,459,419,261), // valve 22 // ButtonV[9]
-            new Button(251,378,1393,342), // valve 26 // ButtonV[10]
-            new Button(258,309,1399,413), // valve 27 // ButtonV[11]
-            new Button(612,403,1058,321), // valve 28 // ButtonV[12]
-            new Button(1325,246,358,480), // valve 29 // ButtonV[13]
-            new Button(1331,551,365,177), // valve 20 // ButtonV[14]
+            new Button(667,360,883,393), // valve 9 // ButtonV[0]
+            new Button(747,360,803,392), // valve 10 // ButtonV[1]
+            new Button(667,477,883,276), // valve 14 // ButtonV[2]
+            new Button(746,477,804,276), // valve 15 // ButtonV[3]
+            new Button(899,358,651,394), // valve 16 // ButtonV[4]
+            new Button(959,358,591,396), // valve 17 // ButtonV[5]
+            new Button(900,476,650,276), // valve 19 // ButtonV[6]
+            new Button(959,478,591,276), // valve 20 // ButtonV[7]
+            new Button(1194,360,356,394), // valve 21 // ButtonV[8]
+            new Button(1194,476,356,278), // valve 22 // ButtonV[9]
+            new Button(177,398,1373,356), // valve 26 // ButtonV[10]
+            new Button(176,324,1374,428), // valve 27 // ButtonV[11]
+            new Button(540,414,1010,338), // valve 28 // ButtonV[12]
+            new Button(1282,260,268,494), // valve 29 // ButtonV[13]
+            new Button(1282,570,268,184), // valve 20 // ButtonV[14]
         };
 
         public ObservableCollection<Button> ButtonsSml { get; } = new ObservableCollection<Button>
         {
-            new Button(790,402,919,328), // valve 18 // ButtonSml[0]
-            new Button(1011,401,717,329), // valve 13 // ButtonSml[1]
-            new Button(715,424,1013,308), // valve 11 // ButtonSml[2]
-            new Button(892,424,855,310), // valve 12 // ButtonSml[3]
-            new Button(960,376,806,360), // valve 23 // ButtonSml[4]
-            new Button(1110,374,675,362), // valve 24 // ButtonSml[5]
-            new Button(1258,407,546,331), // valve 25 // ButtonSml[6]
-            new Button(459,306,1383,435), // ButtonSml[7]
-            new Button(466,386,1395,356), // ButtonSml[8]
-            new Button(477,467,1403,277), // valve 11 // ButtonSml[9]
-            new Button(331,359,1568,385), // valve 11 // ButtonSml[10]
-            new Button(787,249,1137,497), // valve 11 // ButtonSml[11]
-            new Button(804,580,1145,167), // valve 11 // ButtonSml[12]
-            new Button(1417,292,557,456), // valve 11 // ButtonSml[13]
-            new Button(1430,542,569,208), // valve 11 // ButtonSml[14]
-            new Button(1511,293,513,458), // valve 11 // ButtonSml[15]
+            new Button(707,414,843,338), // valve 18 // ButtonSml[0]
+            new Button(930,414,620,338), // valve 13 // ButtonSml[1]
+            new Button(628,438,922,316), // valve 11 // ButtonSml[2]
+            new Button(794,437,756,316), // valve 12 // ButtonSml[3]
+            new Button(860,384,690,368), // valve 23 // ButtonSml[4]
+            new Button(997,382,553,370), // valve 24 // ButtonSml[5]
+            new Button(1157,416,393,336), // valve 25 // ButtonSml[6]
+            new Button(291,308,1259,445), // ButtonSml[7]
+            new Button(287,392,1263,362), // ButtonSml[8]
+            new Button(290,476,1260,278), // valve 11 // ButtonSml[9]
+            new Button(125,363,1425,390), // valve 11 // ButtonSml[10]
+            new Button(594,246,956,508), // valve 11 // ButtonSml[11]
+            new Button(592,593,958,160), // valve 11 // ButtonSml[12]
+            new Button(1225,290,325,464), // valve 11 // ButtonSml[13]
+            new Button(1227,552,323,200), // valve 11 // ButtonSml[14]
+            new Button(1299,290,251,463), // valve 11 // ButtonSml[15]
         };
 
         public ObservableCollection<Button> ButtonsPmpR { get; } = new ObservableCollection<Button>
         {
-            new Button(383, 146, 1078, 516) // pump 1 // ButtonPmpR[0]
+            new Button(406,169,1130,561) // pump 1 // ButtonPmpR[0]
         };
 
         public ObservableCollection<Button> ButtonsPmpL { get; } = new ObservableCollection<Button>
         {
-            new Button(634,278,1407,455), // pump 2 // ButtonPmpL[0]
-            new Button(634,352,1407,381), // ButtonPmpL[1]
-            new Button(636,429,1405,304) // ButtonPmpL[2]
+            new Button(365,274,1177,460), // pump 2 // ButtonPmpL[0]
+            new Button(364,352,1178,382), // ButtonPmpL[1]
+            new Button(369,432,1173,302) // ButtonPmpL[2]
         };
 
 
