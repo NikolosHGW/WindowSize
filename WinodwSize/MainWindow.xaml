@@ -346,24 +346,24 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <!--<TextBlock Text="ButtonSml[0]" Width="50" Height="15" Margin="702,232,831,465" Opacity="1"/>-->
-                <TextBlock Text="ButtonSml[0]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="778,384,908,345" Opacity="{Binding Opa}"/>
-                <TextBlock Text="Sml[1]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="998,382,707,349" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[2]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="702,406,1003,327" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[3]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="880,406,844,329" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[4]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="976,396,824,344" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[5]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1100,392,662,345" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[6]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1247,424,534,315" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[7]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="493,311,1326,430" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[8]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="500,392,1338,351" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[9]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="466,482,1391,261" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[10]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="256,360,1620,385" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[11]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="775,232,1126,514" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[12]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="793,596,1133,151" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[13]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1417,310,534,439" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[14]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1429,522,547,228" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonSml[15]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1528,270,473,481" Opacity="{Binding Opa}"/>
-                <TextBlock Text="ButtonPmpL[0]" Width="79" Height="15" Margin="610,241,1416,512" Opacity="{Binding Opa}"/>
+                <!--<TextBlock Text="ButtonSml[0]" Width="79" Height="15" Width="50" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="702,232,831,465" Opacity="1"/>-->
+                <TextBlock Text="ButtonSml[0]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="681,397,817,356" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Sml[1]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="904,397,594,356" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[2]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="602,421,896,332" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[3]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="768,420,730,333" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[4]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="835,400,663,352" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[5]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="973,398,525,355" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[6]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1132,432,366,321" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[7]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="265,322,1233,431" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[8]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="262,404,1236,349" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[9]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="266,491,1232,262" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[10]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="46,363,1452,390" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[11]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="567,230,931,524" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[12]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="567,609,931,144" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[13]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1191,269,307,484" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[14]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1206,532,292,220" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[15]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1262,307,236,446" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonPmpL[0]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="343,237,1155,516" Opacity="{Binding Opa}"/>
                 <Button x:Name="INFO" Content="Info" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding InfoCommand}" Margin="242,145,1251,545"/>
             </Grid>
         </ScrollViewer>
