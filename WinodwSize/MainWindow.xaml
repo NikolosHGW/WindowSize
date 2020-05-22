@@ -25,6 +25,9 @@
                     </Button.RenderTransform>
                     <Image x:Name="valveImage9" Source="Resources/valveCLS.png" RenderTransformOrigin="0.532,0.489" Height="22"/>
                 </Button>-->
+                <!--<Button x:Name="valve13" Opacity="1" RenderTransformOrigin="0.537,0.569" Width="27" Height="15" Margin="1511,293,513,458">
+                    <Image x:Name="valveImage13" Source="Resources/valveCLS.png" RenderTransformOrigin="0.532,0.489" Height="13"/>
+                </Button>-->
                 <!--ЗАДВИЖКИ ГОРИЗОНТАЛЬНЫЕ-->
                 <ItemsControl ItemsSource="{Binding Buttons}" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <ItemsControl.ItemsPanel>
@@ -77,6 +80,28 @@
                         </Style>
                     </ItemsControl.ItemContainerStyle>
                 </ItemsControl>
+                <!--ЗАДВИЖКИ МАЛЕНЬКИЕ-->
+                <ItemsControl ItemsSource="{Binding ButtonsSml}" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <Grid/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemContainerStyle>
+                        <Style TargetType="ContentPresenter">
+                            <Setter Property="Margin" Value="{Binding ButtonMargin}"/>
+                            <Setter Property="ContentTemplate">
+                                <Setter.Value>
+                                    <DataTemplate>
+                                        <Button RenderTransformOrigin="0.537,0.569" Width="27" Height="15" Command="{Binding DataContext.StateCommand, ElementName=mainWindow}" CommandParameter="{Binding}">
+                                            <Image Style="{StaticResource imageHor}" RenderTransformOrigin="0.532,0.489" Height="13"/>
+                                        </Button>
+                                    </DataTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ItemsControl.ItemContainerStyle>
+                </ItemsControl>
                 <!--КНОПКИ НАСОСОВ ПРАВО-->
                 <ItemsControl ItemsSource="{Binding ButtonsPmpR}" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <ItemsControl.ItemsPanel>
@@ -100,7 +125,7 @@
                     </ItemsControl.ItemContainerStyle>
                 </ItemsControl>
                 <!--ВРЕМЕННЫЙ КОД ДЛЯ ИНФО-->
-                <!--<TextBlock Text="Button[4]" Width="50" Height="15" Margin="702,232,831,465" Opacity="1"/>-->
+                <!--<TextBlock Text="ButtonSml[0]" Width="50" Height="15" Margin="702,232,831,465" Opacity="1"/>-->
                 <!--<TextBlock Text="ButtonV[0]" Width="50" Height="15" Margin="652,337,899,374" Opacity="1">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
@@ -274,6 +299,23 @@
                         </TransformGroup>
                     </TextBlock.RenderTransform>
                 </TextBlock>
+                <!--<TextBlock Text="ButtonSml[0]" Width="50" Height="15" Margin="702,232,831,465" Opacity="1"/>-->
+                <TextBlock Text="ButtonSml[0]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="778,384,908,345" Opacity="{Binding Opa}"/>
+                <TextBlock Text="Sml[1]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="998,382,707,349" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[2]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="702,406,1003,327" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[3]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="880,406,844,329" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[4]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="976,396,824,344" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[5]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1100,392,662,345" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[6]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1247,424,534,315" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[7]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="493,311,1326,430" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[8]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="500,392,1338,351" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[9]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="466,482,1391,261" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[10]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="256,360,1620,385" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[11]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="775,232,1126,514" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[12]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="793,596,1133,151" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[13]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1417,310,534,439" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[14]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1429,522,547,228" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonSml[15]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1528,270,473,481" Opacity="{Binding Opa}"/>
                 <Button x:Name="INFO" Content="Info" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding InfoCommand}" Margin="242,145,1251,545"/>
             </Grid>
         </ScrollViewer>

@@ -45,6 +45,26 @@ namespace WinodwSize
             new Button(1331,551,365,177), // valve 20 // ButtonV[14]
         };
 
+        public ObservableCollection<Button> ButtonsSml { get; } = new ObservableCollection<Button>
+        {
+            new Button(790,402,919,328), // valve 18 // ButtonSml[0]
+            new Button(1011,401,717,329), // valve 13 // ButtonSml[1]
+            new Button(715,424,1013,308), // valve 11 // ButtonSml[2]
+            new Button(892,424,855,310), // valve 12 // ButtonSml[3]
+            new Button(960,376,806,360), // valve 23 // ButtonSml[4]
+            new Button(1110,374,675,362), // valve 24 // ButtonSml[5]
+            new Button(1258,407,546,331), // valve 25 // ButtonSml[6]
+            new Button(459,306,1383,435), // ButtonSml[7]
+            new Button(466,386,1395,356), // ButtonSml[8]
+            new Button(477,467,1403,277), // valve 11 // ButtonSml[9]
+            new Button(331,359,1568,385), // valve 11 // ButtonSml[10]
+            new Button(787,249,1137,497), // valve 11 // ButtonSml[11]
+            new Button(804,580,1145,167), // valve 11 // ButtonSml[12]
+            new Button(1417,292,557,456), // valve 11 // ButtonSml[13]
+            new Button(1430,542,569,208), // valve 11 // ButtonSml[14]
+            new Button(1511,293,513,458), // valve 11 // ButtonSml[15]
+        };
+
         public ObservableCollection<Button> ButtonsPmpR { get; } = new ObservableCollection<Button>
         {
             new Button(383, 146, 1078, 516) // pump 1 // ButtonPmpR[0]
