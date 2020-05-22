@@ -40,9 +40,9 @@ namespace WinodwSize
             new Button(1218,459,419,261), // valve 22 // ButtonV[9]
             new Button(251,378,1393,342), // valve 26 // ButtonV[10]
             new Button(258,309,1399,413), // valve 27 // ButtonV[11]
-            //new Button(1135, 446), // valve 28 // ButtonV[12]
-            //new Button(1220, 528), // valve 29 // ButtonV[13]
-            //new Button(514, 379), // valve 20 // ButtonV[14]
+            new Button(612,403,1058,321), // valve 28 // ButtonV[12]
+            new Button(1325,246,358,480), // valve 29 // ButtonV[13]
+            new Button(1331,551,365,177), // valve 20 // ButtonV[14]
         };
 
         public ObservableCollection<Button> ButtonsPmpR { get; } = new ObservableCollection<Button>

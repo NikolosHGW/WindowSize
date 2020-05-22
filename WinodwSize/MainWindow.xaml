@@ -14,7 +14,7 @@
                 <!--<Button x:Name="valve1" Opacity="1" RenderTransformOrigin="0.537,0.569" Width="48" Height="26" Margin="310,412,1237,286">
                     <Image x:Name="valveImage1" Source="Resources/valveCLS.png" RenderTransformOrigin="0.532,0.489" Height="22"/>
                 </Button>-->
-                <!--<Button x:Name="valve9" Opacity="1" RenderTransformOrigin="0.537,0.569" Width="27" Height="15" Margin="258,309,1399,413">
+                <!--<Button x:Name="valve9" Opacity="1" RenderTransformOrigin="0.537,0.569" Width="27" Height="15" Margin="1331,551,365,177">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -235,6 +235,36 @@
                     </TextBlock.RenderTransform>
                 </TextBlock>
                 <TextBlock Text="ButtonV[11]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="245,334,1389,389" Opacity="{Binding Opa}">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-90.00"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="ButtonV[12]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="602,438,1045,287" Opacity="{Binding Opa}">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-90.00"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="ButtonV[13]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1317,284,343,443" Opacity="{Binding Opa}">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-90.00"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="ButtonV[14]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1319,604,354,125" Opacity="{Binding Opa}">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
