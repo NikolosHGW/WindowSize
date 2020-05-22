@@ -28,6 +28,18 @@
                 <!--<Button x:Name="valve13" Opacity="1" RenderTransformOrigin="0.537,0.569" Width="27" Height="15" Margin="1511,293,513,458">
                     <Image x:Name="valveImage13" Source="Resources/valveCLS.png" RenderTransformOrigin="0.532,0.489" Height="13"/>
                 </Button>-->
+                <!--<Button x:Name="button2" Click="Button_Click2" Width="35" RenderTransformOrigin="0.5,0.5" Height="34" Margin="636,429,1405,304">
+                    <Image x:Name="pump2Image" Source="Resources/nasos.png" Width="31" Height="32" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-180.089"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+                </Button>-->
                 <!--ЗАДВИЖКИ ГОРИЗОНТАЛЬНЫЕ-->
                 <ItemsControl ItemsSource="{Binding Buttons}" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <ItemsControl.ItemsPanel>
@@ -117,6 +129,37 @@
                                     <DataTemplate>
                                         <Button Width="41" Height="38" Command="{Binding DataContext.StateCommand, ElementName=mainWindow}" CommandParameter="{Binding}">
                                             <Image Style="{StaticResource imagePump}" Width="41" Height="37"/>
+                                        </Button>
+                                    </DataTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ItemsControl.ItemContainerStyle>
+                </ItemsControl>
+                <!--КНОПКИ НАСОСОВ ЛЕВО-->
+                <ItemsControl ItemsSource="{Binding ButtonsPmpL}" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <Grid/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemContainerStyle>
+                        <Style TargetType="ContentPresenter">
+                            <Setter Property="Margin" Value="{Binding ButtonMargin}"/>
+                            <Setter Property="ContentTemplate">
+                                <Setter.Value>
+                                    <DataTemplate>
+                                        <Button RenderTransformOrigin="0.5,0.5" Height="34" Command="{Binding DataContext.StateCommand, ElementName=mainWindow}" CommandParameter="{Binding}">
+                                            <Image Style="{StaticResource imagePump}" Width="31" Height="32" RenderTransformOrigin="0.5,0.5">
+                                                <Image.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform/>
+                                                        <SkewTransform/>
+                                                        <RotateTransform Angle="-180.00"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Image.RenderTransform>
+                                            </Image>
                                         </Button>
                                     </DataTemplate>
                                 </Setter.Value>
@@ -316,6 +359,7 @@
                 <TextBlock Text="ButtonSml[13]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1417,310,534,439" Opacity="{Binding Opa}"/>
                 <TextBlock Text="ButtonSml[14]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1429,522,547,228" Opacity="{Binding Opa}"/>
                 <TextBlock Text="ButtonSml[15]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1528,270,473,481" Opacity="{Binding Opa}"/>
+                <TextBlock Text="ButtonPmpL[0]" Width="79" Height="15" Margin="610,241,1416,512" Opacity="{Binding Opa}"/>
                 <Button x:Name="INFO" Content="Info" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding InfoCommand}" Margin="242,145,1251,545"/>
             </Grid>
         </ScrollViewer>

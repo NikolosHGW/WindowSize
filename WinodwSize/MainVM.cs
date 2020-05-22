@@ -70,6 +70,12 @@ namespace WinodwSize
             new Button(383, 146, 1078, 516) // pump 1 // ButtonPmpR[0]
         };
 
+        public ObservableCollection<Button> ButtonsPmpL { get; } = new ObservableCollection<Button>
+        {
+            new Button(634,278,1407,455), // pump 2 // ButtonPmpL[0]
+            new Button(634,352,1407,381), // ButtonPmpL[1]
+            new Button(636,429,1405,304) // ButtonPmpL[2]
+        };
 
 
         private RelayCommand stateCommand;
