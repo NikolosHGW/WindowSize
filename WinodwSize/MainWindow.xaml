@@ -18,7 +18,7 @@
                 <Line x:Name="line3" X1="0" Y1="0" X2="0" Y2="124" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="554,289,1008,339"/>
                 <Line x:Name="line4" X1="0" Y1="0" X2="0" Y2="-123" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="554,411,1008,344"/>
                 <Line x:Name="line5" X1="0" Y1="0" X2="0" Y2="129" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="554,436,1008,192"/>
-                <Line x:Name="line6" X1="0" Y1="0" X2="0" Y2="129" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="554,566,1008,189"/>
+                <Line x:Name="line6" X1="0" Y1="0" X2="0" Y2="-129" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="554,566,1008,189"/>
                 <Line x:Name="line7" X1="0" Y1="0" X2="32" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="551,563,961,192"/>
                 <Line x:Name="line8" X1="0" Y1="0" X2="-34" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="585,563,975,188"/>
                 <Line x:Name="line9" X1="0" Y1="0" X2="-365" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="552,563,1008,188"/>
