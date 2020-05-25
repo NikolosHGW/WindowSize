@@ -11,6 +11,55 @@
         <ScrollViewer HorizontalScrollBarVisibility="Visible">
             <Grid Width="1577" Height="768">
                 <Image Source="Resources/tps.png" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <!--ЛИНИИ-->
+                <Line x:Name="line0" X1="0" Y1="0" X2="0" Y2="104" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="514,189,1051,474"/>
+                <Line x:Name="line1" X1="0" Y1="0" X2="-60" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="518,291,1042,460"/>
+                <Line x:Name="line2" X1="0" Y1="0" X2="64" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="518,291,994,464"/>
+                <Line x:Name="line3" X1="0" Y1="0" X2="0" Y2="124" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="554,289,1008,339"/>
+                <Line x:Name="line4" X1="0" Y1="0" X2="0" Y2="-123" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="554,411,1008,344"/>
+                <Line x:Name="line5" X1="0" Y1="0" X2="0" Y2="129" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="554,436,1008,192"/>
+                <Line x:Name="line6" X1="0" Y1="0" X2="0" Y2="129" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="554,566,1008,189"/>
+                <Line x:Name="line7" X1="0" Y1="0" X2="32" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="551,563,961,192"/>
+                <Line x:Name="line8" X1="0" Y1="0" X2="-34" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="585,563,975,188"/>
+                <Line x:Name="line9" X1="0" Y1="0" X2="-365" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="552,563,1008,188"/>
+                <Line x:Name="line10" X1="0" Y1="0" X2="0" Y2="-144" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="189.4,564,1373,191"/>
+                <Line x:Name="line11" X1="0" Y1="0" X2="0" Y2="-35" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="189.4,323,1374,432"/>
+                <Line x:Name="line12" X1="0" Y1="0" X2="94" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="187,291,1292,466"/>
+                <Line x:Name="line13" X1="0" Y1="0" X2="68" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="629,563,880,192"/>
+                <Line x:Name="line14" X1="0" Y1="0" X2="-66" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="697,563,862,190"/>
+                <Line x:Name="line15" X1="0" Y1="0" X2="0" Y2="65" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="680.7,500,883,197"/>
+                <Line x:Name="line16" X1="0" Y1="0" X2="0" Y2="-65" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="680.7,565,881,190"/>
+                <Line x:Name="line17" X1="0" Y1="0" X2="174" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="745,563,657,192"/>
+                <Line x:Name="line18" X1="0" Y1="0" X2="-176" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="921,563,637,191"/>
+                <Line x:Name="line19" X1="0" Y1="0" X2="0" Y2="65" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="759.5,500,806,196"/>
+                <Line x:Name="line20" X1="0" Y1="0" X2="0" Y2="-65" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="759.5,565,803,190"/>
+                <Line x:Name="line21" X1="0" Y1="0" X2="0" Y2="66" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="912.7,499,653,196"/>
+                <Line x:Name="line22" X1="0" Y1="0" X2="0" Y2="-65" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="912.7,565,651,189"/>
+                <Line x:Name="line23" X1="0" Y1="0" X2="0" Y2="66" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="972.7,499,594,194"/>
+                <Line x:Name="line24" X1="0" Y1="0" X2="0" Y2="-65" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="972.7,565,588,187"/>
+                <Line x:Name="line25" X1="0" Y1="0" X2="241" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="2" Margin="967,563,367,193"/>
+                <Line x:Name="line26" X1="0" Y1="0" X2="-241" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="2" Margin="1208,563,349,191"/>
+                <Line x:Name="line27" X1="0" Y1="0" X2="0" Y2="65" Opacity="0" Stroke="Blue" StrokeThickness="2" Margin="1206.7,499,360,194"/>
+                <Line x:Name="line28" X1="0" Y1="0" X2="0" Y2="-65" Opacity="0" Stroke="Blue" StrokeThickness="2" Margin="1206.7,564,354,188"/>
+                <Line x:Name="line29" X1="0" Y1="0" X2="0" Y2="90" Opacity="0" Stroke="Blue" StrokeThickness="2" Margin="1206.7,382,359,290"/>
+                <Line x:Name="line30" X1="0" Y1="0" X2="0" Y2="-92" Opacity="0" Stroke="Blue" StrokeThickness="2" Margin="1206.7,474,355,278"/>
+                <Line x:Name="line31" X1="0" Y1="0" X2="0" Y2="65" Opacity="0" Stroke="Blue" StrokeThickness="2" Margin="1206.7,291,359,403"/>
+                <Line x:Name="line32" X1="0" Y1="0" X2="0" Y2="-65" Opacity="0" Stroke="Blue" StrokeThickness="2" Margin="1206.7,356,355,395"/>
+                <Line x:Name="line33" X1="0" Y1="0" X2="241" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="2" Margin="967,292,367,464"/>
+                <Line x:Name="line34" X1="0" Y1="0" X2="-241" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="2" Margin="1208,292,348,463"/>
+                <Line x:Name="line35" X1="0" Y1="0" X2="0" Y2="65" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="972.5,289,594,404"/>
+                <Line x:Name="line36" X1="0" Y1="0" X2="0" Y2="-65" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="972.5,354,589,395"/>
+                <Line x:Name="line37" X1="0" Y1="0" X2="174" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="745,291,655,466"/>
+                <Line x:Name="line38" X1="0" Y1="0" X2="-174" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="919,291,637,465"/>
+                <Line x:Name="line39" X1="0" Y1="0" X2="0" Y2="66" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="912.7,288.3,653,404"/>
+                <Line x:Name="line40" X1="0" Y1="0" X2="0" Y2="-66" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="912.7,355,648,394"/>
+                <Line x:Name="line41" X1="0" Y1="0" X2="0" Y2="66" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="759.5,289,806,404"/>
+                <Line x:Name="line42" X1="0" Y1="0" X2="0" Y2="-66" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="759,359,801,390"/>
+                <Line x:Name="line43" X1="0" Y1="0" X2="67" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="630,291,878,467"/>
+                <Line x:Name="line44" X1="0" Y1="0" X2="-67" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="697,291,858,466"/>
+                <Line x:Name="line45" X1="0" Y1="0" X2="0" Y2="67" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="680.7,289,885,405"/>
+                <Line x:Name="line46" X1="0" Y1="0" X2="0" Y2="-67" Opacity="0" Stroke="Blue" StrokeThickness="4" Margin="680.7,356,880,393"/>
+                <!--ЛИНИИ-->
                 <!--<Button x:Name="button1" Width="41" Height="38" Opacity="1" Click="Button_Click" Canvas.Left="380" Canvas.Top="146" RenderTransformOrigin="0.537,0.569" Margin="406,169,1130,561">
                     <Image x:Name="pumpImage" Source="Resources/nasos.png" Width="41" Height="37"/>
                 </Button>-->
