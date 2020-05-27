@@ -434,7 +434,7 @@ namespace WinodwSize
                 );
             anLine28.KeyFrames.Add(
                 new LinearDoubleKeyFrame(
-                    65, // Target value (KeyValue)
+                    -65, // Target value (KeyValue)
                     KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3/*была 1*/))) // KeyTime
                 );
 
