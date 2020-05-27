@@ -9,6 +9,29 @@ namespace WinodwSize
 {
     class MainVM : INotifyPropertyChanged
     {
+        public MainVM()
+        {
+            foreach (var item in Buttons)
+            {
+                StateButton.Button.Add(item);
+            }
+            foreach (var item in ButtonsV)
+            {
+                StateButton.ButtonV.Add(item);
+            }
+            foreach (var item in ButtonsSml)
+            {
+                StateButton.ButtonSml.Add(item);
+            }
+            foreach (var item in ButtonsPmpR)
+            {
+                StateButton.ButtonPmpR.Add(item);
+            }
+            foreach (var item in ButtonsPmpL)
+            {
+                StateButton.ButtonPmpL.Add(item);
+            }
+        }
         public ObservableCollection<Button> Buttons { get; } = new ObservableCollection<Button>
         {
             new Button(459,178,1070,564), // valve 1 // Button[0]

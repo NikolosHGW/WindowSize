@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace WinodwSize
 {
@@ -24,6 +25,21 @@ namespace WinodwSize
         {
             InitializeComponent();
             DataContext = new MainVM();
+
+            StartTimerTick();
+            DataLines.InitializeLines();
+        }
+
+        private static void StartTimerTick()
+        {
+            DispatcherTimer timer = new DispatcherTimer();  // если надо, то в скобках указываем приоритет, например DispatcherPriority.Render
+            timer.Tick += new EventHandler(TimerTick);
+            timer.Interval = new TimeSpan(0, 0, 0, 0, 1000);
+            timer.Start();
+        }
+        private static void TimerTick(object sender, EventArgs e)
+        {
+            CheckStateWater.Check();
         }
     }
 }
