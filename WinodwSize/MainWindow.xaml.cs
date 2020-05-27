@@ -34,7 +34,7 @@ namespace WinodwSize
         {
             DispatcherTimer timer = new DispatcherTimer();  // если надо, то в скобках указываем приоритет, например DispatcherPriority.Render
             timer.Tick += new EventHandler(TimerTick);
-            timer.Interval = new TimeSpan(0, 0, 0, 0, 1000);
+            timer.Interval = new TimeSpan(0, 0, 0, 0, 100);
             timer.Start();
         }
         private static void TimerTick(object sender, EventArgs e)
