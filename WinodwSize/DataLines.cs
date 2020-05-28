@@ -968,6 +968,8 @@ namespace WinodwSize
                 );
 
 
+            anLine0.Completed += new EventHandler(AnLine0_Completed);
+            anLine1.Completed += new EventHandler(AnLine1_Completed);
             anLine2.Completed += new EventHandler(AnLine2_Completed);
             anLine3.Completed += new EventHandler(AnLine3_Completed);
             anLine4.Completed += new EventHandler(AnLine4_Completed);
@@ -1113,289 +1115,444 @@ namespace WinodwSize
         public static bool ChckLine71 { get; set; } = false;
         public static bool ChckLine72 { get; set; } = false;
 
+
+        private static void AnLine0_Completed(object sender, EventArgs e)
+        {
+            DoneAnim0 = false;
+        }
+        private static void AnLine1_Completed(object sender, EventArgs e)
+        {
+            DoneAnim1 = false;
+        }
         private static void AnLine2_Completed(object sender, EventArgs e)
         {
             ChckLine2 = true;
+            DoneAnim2 = false;
         }
         private static void AnLine3_Completed(object sender, EventArgs e)
         {
             ChckLine3 = true;
+            DoneAnim3 = false;
         }
         private static void AnLine4_Completed(object sender, EventArgs e)
         {
             ChckLine4 = true;
+            DoneAnim4 = false;
         }
         private static void AnLine5_Completed(object sender, EventArgs e)
         {
             ChckLine5 = true;
+            DoneAnim5 = false;
         }
         private static void AnLine6_Completed(object sender, EventArgs e)
         {
             ChckLine6 = true;
+            DoneAnim6 = false;
         }
         private static void AnLine7_Completed(object sender, EventArgs e)
         {
             ChckLine7 = true;
+            DoneAnim7 = false;
         }
         private static void AnLine8_Completed(object sender, EventArgs e)
         {
             ChckLine8 = true;
+            DoneAnim8 = false;
         }
         private static void AnLine9_Completed(object sender, EventArgs e)
         {
             ChckLine9 = true;
+            DoneAnim9 = false;
         }
         private static void AnLine10_Completed(object sender, EventArgs e)
         {
             ChckLine10 = true;
+            DoneAnim10 = false;
         }
         private static void AnLine11_Completed(object sender, EventArgs e)
         {
             ChckLine11 = true;
+            DoneAnim11 = false;
         }
         private static void AnLine12_Completed(object sender, EventArgs e)
         {
             ChckLine12 = true;
+            DoneAnim12 = false;
         }
         private static void AnLine13_Completed(object sender, EventArgs e)
         {
             ChckLine13 = true;
+            DoneAnim13 = false;
         }
         private static void AnLine14_Completed(object sender, EventArgs e)
         {
             ChckLine14 = true;
+            DoneAnim14 = false;
         }
         private static void AnLine15_Completed(object sender, EventArgs e)
         {
             ChckLine15 = true;
+            DoneAnim15 = false;
         }
         private static void AnLine16_Completed(object sender, EventArgs e)
         {
             ChckLine16 = true;
+            DoneAnim16 = false;
         }
         private static void AnLine17_Completed(object sender, EventArgs e)
         {
             ChckLine17 = true;
+            DoneAnim17 = false;
         }
         private static void AnLine18_Completed(object sender, EventArgs e)
         {
             ChckLine18 = true;
+            DoneAnim18 = false;
         }
         private static void AnLine19_Completed(object sender, EventArgs e)
         {
             ChckLine19 = true;
+            DoneAnim19 = false;
         }
         private static void AnLine20_Completed(object sender, EventArgs e)
         {
             ChckLine20 = true;
+            DoneAnim20 = false;
         }
         private static void AnLine21_Completed(object sender, EventArgs e)
         {
             ChckLine21 = true;
+            DoneAnim21 = false;
         }
         private static void AnLine22_Completed(object sender, EventArgs e)
         {
             ChckLine22 = true;
+            DoneAnim22 = false;
         }
         private static void AnLine23_Completed(object sender, EventArgs e)
         {
             ChckLine23 = true;
+            DoneAnim23 = false;
         }
         private static void AnLine24_Completed(object sender, EventArgs e)
         {
             ChckLine24 = true;
+            DoneAnim24 = false;
         }
         private static void AnLine25_Completed(object sender, EventArgs e)
         {
             ChckLine25 = true;
+            DoneAnim25 = false;
         }
         private static void AnLine26_Completed(object sender, EventArgs e)
         {
             ChckLine26 = true;
+            DoneAnim26 = false;
         }
         private static void AnLine27_Completed(object sender, EventArgs e)
         {
             ChckLine27 = true;
+            DoneAnim27 = false;
         }
         private static void AnLine28_Completed(object sender, EventArgs e)
         {
             ChckLine28 = true;
+            DoneAnim28 = false;
         }
         private static void AnLine29_Completed(object sender, EventArgs e)
         {
             ChckLine29 = true;
+            DoneAnim29 = false;
         }
         private static void AnLine30_Completed(object sender, EventArgs e)
         {
             ChckLine30 = true;
+            DoneAnim30 = false;
         }
         private static void AnLine31_Completed(object sender, EventArgs e)
         {
             ChckLine31 = true;
+            DoneAnim31 = false;
         }
         private static void AnLine32_Completed(object sender, EventArgs e)
         {
             ChckLine32 = true;
+            DoneAnim32 = false;
         }
         private static void AnLine33_Completed(object sender, EventArgs e)
         {
             ChckLine33 = true;
+            DoneAnim33 = false;
         }
         private static void AnLine34_Completed(object sender, EventArgs e)
         {
             ChckLine34 = true;
+            DoneAnim34 = false;
         }
         private static void AnLine35_Completed(object sender, EventArgs e)
         {
             ChckLine35 = true;
+            DoneAnim35 = false;
         }
         private static void AnLine36_Completed(object sender, EventArgs e)
         {
             ChckLine36 = true;
+            DoneAnim36 = false;
         }
         private static void AnLine37_Completed(object sender, EventArgs e)
         {
             ChckLine37 = true;
+            DoneAnim37 = false;
         }
         private static void AnLine38_Completed(object sender, EventArgs e)
         {
             ChckLine38 = true;
+            DoneAnim38 = false;
         }
         private static void AnLine39_Completed(object sender, EventArgs e)
         {
             ChckLine39 = true;
+            DoneAnim39 = false;
         }
         private static void AnLine40_Completed(object sender, EventArgs e)
         {
             ChckLine40 = true;
+            DoneAnim40 = false;
         }
         private static void AnLine41_Completed(object sender, EventArgs e)
         {
             ChckLine41 = true;
+            DoneAnim41 = false;
         }
         private static void AnLine42_Completed(object sender, EventArgs e)
         {
             ChckLine42 = true;
+            DoneAnim42 = false;
         }
         private static void AnLine43_Completed(object sender, EventArgs e)
         {
             ChckLine43 = true;
+            DoneAnim43 = false;
         }
         private static void AnLine44_Completed(object sender, EventArgs e)
         {
             ChckLine44 = true;
+            DoneAnim44 = false;
         }
         private static void AnLine45_Completed(object sender, EventArgs e)
         {
             ChckLine45 = true;
+            DoneAnim45 = false;
         }
         private static void AnLine46_Completed(object sender, EventArgs e)
         {
             ChckLine46 = true;
+            DoneAnim46 = false;
         }
         private static void AnLine47_Completed(object sender, EventArgs e)
         {
             ChckLine47 = true;
+            DoneAnim47 = false;
         }
         private static void AnLine48_Completed(object sender, EventArgs e)
         {
             ChckLine48 = true;
+            DoneAnim48 = false;
         }
         private static void AnLine49_Completed(object sender, EventArgs e)
         {
             ChckLine49 = true;
+            DoneAnim49 = false;
         }
         private static void AnLine50_Completed(object sender, EventArgs e)
         {
             ChckLine50 = true;
+            DoneAnim50 = false;
         }
         private static void AnLine51_Completed(object sender, EventArgs e)
         {
             ChckLine51 = true;
+            DoneAnim51 = false;
         }
         private static void AnLine52_Completed(object sender, EventArgs e)
         {
             ChckLine52 = true;
+            DoneAnim52 = false;
         }
         private static void AnLine53_Completed(object sender, EventArgs e)
         {
             ChckLine53 = true;
+            DoneAnim53 = false;
         }
         private static void AnLine54_Completed(object sender, EventArgs e)
         {
             ChckLine54 = true;
+            DoneAnim54 = false;
         }
         private static void AnLine55_Completed(object sender, EventArgs e)
         {
             ChckLine55 = true;
+            DoneAnim55 = false;
         }
         private static void AnLine56_Completed(object sender, EventArgs e)
         {
             ChckLine56 = true;
+            DoneAnim56 = false;
         }
         private static void AnLine57_Completed(object sender, EventArgs e)
         {
             ChckLine57 = true;
+            DoneAnim57 = false;
         }
         private static void AnLine58_Completed(object sender, EventArgs e)
         {
             ChckLine58 = true;
+            DoneAnim58 = false;
         }
         private static void AnLine59_Completed(object sender, EventArgs e)
         {
             ChckLine59 = true;
+            DoneAnim59 = false;
         }
         private static void AnLine60_Completed(object sender, EventArgs e)
         {
             ChckLine60 = true;
+            DoneAnim60 = false;
         }
         private static void AnLine61_Completed(object sender, EventArgs e)
         {
             ChckLine61 = true;
+            DoneAnim61 = false;
         }
         private static void AnLine62_Completed(object sender, EventArgs e)
         {
             ChckLine62 = true;
+            DoneAnim62 = false;
         }
         private static void AnLine63_Completed(object sender, EventArgs e)
         {
             ChckLine63 = true;
+            DoneAnim63 = false;
         }
         private static void AnLine64_Completed(object sender, EventArgs e)
         {
             ChckLine64 = true;
+            DoneAnim64 = false;
         }
         private static void AnLine65_Completed(object sender, EventArgs e)
         {
             ChckLine65 = true;
+            DoneAnim65 = false;
         }
         private static void AnLine66_Completed(object sender, EventArgs e)
         {
             ChckLine66 = true;
+            DoneAnim66 = false;
         }
         private static void AnLine67_Completed(object sender, EventArgs e)
         {
             ChckLine67 = true;
+            DoneAnim67 = false;
         }
         private static void AnLine68_Completed(object sender, EventArgs e)
         {
             ChckLine68 = true;
+            DoneAnim68 = false;
         }
         private static void AnLine69_Completed(object sender, EventArgs e)
         {
             ChckLine69 = true;
+            DoneAnim69 = false;
         }
         private static void AnLine70_Completed(object sender, EventArgs e)
         {
             ChckLine70 = true;
+            DoneAnim70 = false;
         }
         private static void AnLine71_Completed(object sender, EventArgs e)
         {
             ChckLine71 = true;
+            DoneAnim71 = false;
         }
         private static void AnLine72_Completed(object sender, EventArgs e)
         {
             ChckLine72 = true;
+            DoneAnim72 = false;
         }
+
+
+        public static bool DoneAnim0 { get; set; } = true;
+        public static bool DoneAnim1 { get; set; } = true;
+        public static bool DoneAnim2 { get; set; } = true;
+        public static bool DoneAnim3 { get; set; } = true;
+        public static bool DoneAnim4 { get; set; } = true;
+        public static bool DoneAnim5 { get; set; } = true;
+        public static bool DoneAnim6 { get; set; } = true;
+        public static bool DoneAnim7 { get; set; } = true;
+        public static bool DoneAnim8 { get; set; } = true;
+        public static bool DoneAnim9 { get; set; } = true;
+        public static bool DoneAnim10 { get; set; } = true;
+        public static bool DoneAnim11 { get; set; } = true;
+        public static bool DoneAnim12 { get; set; } = true;
+        public static bool DoneAnim13 { get; set; } = true;
+        public static bool DoneAnim14 { get; set; } = true;
+        public static bool DoneAnim15 { get; set; } = true;
+        public static bool DoneAnim16 { get; set; } = true;
+        public static bool DoneAnim17 { get; set; } = true;
+        public static bool DoneAnim18 { get; set; } = true;
+        public static bool DoneAnim19 { get; set; } = true;
+        public static bool DoneAnim20 { get; set; } = true;
+        public static bool DoneAnim21 { get; set; } = true;
+        public static bool DoneAnim22 { get; set; } = true;
+        public static bool DoneAnim23 { get; set; } = true;
+        public static bool DoneAnim24 { get; set; } = true;
+        public static bool DoneAnim25 { get; set; } = true;
+        public static bool DoneAnim26 { get; set; } = true;
+        public static bool DoneAnim27 { get; set; } = true;
+        public static bool DoneAnim28 { get; set; } = true;
+        public static bool DoneAnim29 { get; set; } = true;
+        public static bool DoneAnim30 { get; set; } = true;
+        public static bool DoneAnim31 { get; set; } = true;
+        public static bool DoneAnim32 { get; set; } = true;
+        public static bool DoneAnim33 { get; set; } = true;
+        public static bool DoneAnim34 { get; set; } = true;
+        public static bool DoneAnim35 { get; set; } = true;
+        public static bool DoneAnim36 { get; set; } = true;
+        public static bool DoneAnim37 { get; set; } = true;
+        public static bool DoneAnim38 { get; set; } = true;
+        public static bool DoneAnim39 { get; set; } = true;
+        public static bool DoneAnim40 { get; set; } = true;
+        public static bool DoneAnim41 { get; set; } = true;
+        public static bool DoneAnim42 { get; set; } = true;
+        public static bool DoneAnim43 { get; set; } = true;
+        public static bool DoneAnim44 { get; set; } = true;
+        public static bool DoneAnim45 { get; set; } = true;
+        public static bool DoneAnim46 { get; set; } = true;
+        public static bool DoneAnim47 { get; set; } = true;
+        public static bool DoneAnim48 { get; set; } = true;
+        public static bool DoneAnim49 { get; set; } = true;
+        public static bool DoneAnim50 { get; set; } = true;
+        public static bool DoneAnim51 { get; set; } = true;
+        public static bool DoneAnim52 { get; set; } = true;
+        public static bool DoneAnim53 { get; set; } = true;
+        public static bool DoneAnim54 { get; set; } = true;
+        public static bool DoneAnim55 { get; set; } = true;
+        public static bool DoneAnim56 { get; set; } = true;
+        public static bool DoneAnim57 { get; set; } = true;
+        public static bool DoneAnim58 { get; set; } = true;
+        public static bool DoneAnim59 { get; set; } = true;
+        public static bool DoneAnim60 { get; set; } = true;
+        public static bool DoneAnim61 { get; set; } = true;
+        public static bool DoneAnim62 { get; set; } = true;
+        public static bool DoneAnim63 { get; set; } = true;
+        public static bool DoneAnim64 { get; set; } = true;
+        public static bool DoneAnim65 { get; set; } = true;
+        public static bool DoneAnim66 { get; set; } = true;
+        public static bool DoneAnim67 { get; set; } = true;
+        public static bool DoneAnim68 { get; set; } = true;
+        public static bool DoneAnim69 { get; set; } = true;
+        public static bool DoneAnim70 { get; set; } = true;
+        public static bool DoneAnim71 { get; set; } = true;
+        public static bool DoneAnim72 { get; set; } = true;
     }
 }

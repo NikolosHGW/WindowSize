@@ -10,21 +10,30 @@ namespace WinodwSize
 {
     public class FillModel
     {
-        public static void Filling(Line ln, DependencyProperty X2, DoubleAnimationUsingKeyFrames AnLines)
+        public static void Filling(Line ln, DependencyProperty X2, DoubleAnimationUsingKeyFrames AnLines, bool chck)
         {
             ln.Opacity = 1;
-            ln.BeginAnimation(X2, AnLines);
+            if (chck == true)
+            {
+                chck = false;
+                ln.BeginAnimation(X2, AnLines);
+            }
         }
 
-        public static async Task FillingAsync(int ms, Line ln, DependencyProperty X2, DoubleAnimationUsingKeyFrames AnLines)
+        public static async Task FillingAsync(int ms, Line ln, DependencyProperty X2, DoubleAnimationUsingKeyFrames AnLines, bool chck)
         {
             await Task.Delay(ms);
             ln.Opacity = 1;
-            ln.BeginAnimation(X2, AnLines);
+            if (chck == true)
+            {
+                chck = false;
+                ln.BeginAnimation(X2, AnLines);
+            }
         }
 
-        public static void OnlyOpacity(Line ln)
+        public static async Task OnlyOpacityAsync(Line ln)
         {
+            await Task.Delay(300);
             ln.Opacity = 1;
         }
     }
