@@ -40,12 +40,14 @@ namespace WinodwSize
             {
                 DataLines.ChckLine7 = false;
                 FillModel.Filling(DataLines.wnd.line13, DataLines.X2, DataLines.anLine13);
+                FillModel.OnlyOpacity(DataLines.wnd.line14);
                 FillModel.FillingAsync(300, DataLines.wnd.line16, DataLines.Y2, DataLines.anLine16);
             }
             if (StateButton.Button[7].IsState == true && DataLines.wnd.line14.Opacity == 1 && DataLines.wnd.line8.Opacity == 0 && DataLines.ChckLine14 == true)
             {
                 DataLines.ChckLine14 = false;
                 FillModel.Filling(DataLines.wnd.line8, DataLines.X2, DataLines.anLine8);
+                FillModel.OnlyOpacity(DataLines.wnd.line7);
                 FillModel.FillingAsync(300, DataLines.wnd.line6, DataLines.Y2, DataLines.anLine6);
                 FillModel.FillingAsync(300, DataLines.wnd.line9, DataLines.X2, DataLines.anLine9);
                 FillModel.FillingAsync(600, DataLines.wnd.line10, DataLines.Y2, DataLines.anLine10);
@@ -59,6 +61,7 @@ namespace WinodwSize
             {
                 DataLines.ChckLine13 = false;
                 FillModel.Filling(DataLines.wnd.line17, DataLines.X2, DataLines.anLine17);
+                FillModel.OnlyOpacity(DataLines.wnd.line18);
                 FillModel.FillingAsync(100, DataLines.wnd.line20, DataLines.Y2, DataLines.anLine20);
                 FillModel.FillingAsync(280, DataLines.wnd.line22, DataLines.Y2, DataLines.anLine22);
             }
@@ -66,6 +69,7 @@ namespace WinodwSize
             {
                 DataLines.ChckLine18 = false;
                 FillModel.Filling(DataLines.wnd.line14, DataLines.X2, DataLines.anLine14);
+                FillModel.OnlyOpacity(DataLines.wnd.line13);
                 FillModel.FillingAsync(100, DataLines.wnd.line16, DataLines.Y2, DataLines.anLine16);
             }
 
@@ -75,6 +79,7 @@ namespace WinodwSize
             {
                 DataLines.ChckLine17 = false;
                 FillModel.Filling(DataLines.wnd.line25, DataLines.X2, DataLines.anLine25);
+                FillModel.OnlyOpacity(DataLines.wnd.line26);
                 FillModel.Filling(DataLines.wnd.line24, DataLines.Y2, DataLines.anLine24);
                 FillModel.FillingAsync(300, DataLines.wnd.line28, DataLines.Y2, DataLines.anLine28);
             }
@@ -82,6 +87,7 @@ namespace WinodwSize
             {
                 DataLines.ChckLine26 = false;
                 FillModel.Filling(DataLines.wnd.line18, DataLines.X2, DataLines.anLine18);
+                FillModel.OnlyOpacity(DataLines.wnd.line17);
                 FillModel.Filling(DataLines.wnd.line22, DataLines.Y2, DataLines.anLine22);
                 FillModel.FillingAsync(280, DataLines.wnd.line20, DataLines.Y2, DataLines.anLine20);
             }
@@ -92,12 +98,14 @@ namespace WinodwSize
             {
                 DataLines.ChckLine28 = false;
                 FillModel.Filling(DataLines.wnd.line30, DataLines.Y2, DataLines.anLine30);
+                FillModel.OnlyOpacity(DataLines.wnd.line29);
                 FillModel.FillingAsync(150, DataLines.wnd.line72, DataLines.X2, DataLines.anLine72);
             }
             if (StateButton.ButtonV[9].IsState == true && DataLines.wnd.line29.Opacity == 1 && DataLines.wnd.line27.Opacity == 0 && DataLines.ChckLine29 == true)
             {
                 DataLines.ChckLine29 = false;
                 FillModel.Filling(DataLines.wnd.line27, DataLines.Y2, DataLines.anLine27);
+                FillModel.OnlyOpacity(DataLines.wnd.line28);
                 FillModel.FillingAsync(300, DataLines.wnd.line26, DataLines.X2, DataLines.anLine26);
                 FillModel.FillingAsync(600, DataLines.wnd.line24, DataLines.Y2, DataLines.anLine24);
             }
@@ -108,6 +116,7 @@ namespace WinodwSize
             {
                 DataLines.ChckLine30 = false;
                 FillModel.Filling(DataLines.wnd.line32, DataLines.Y2, DataLines.anLine32);
+                FillModel.OnlyOpacity(DataLines.wnd.line31);
                 FillModel.FillingAsync(300, DataLines.wnd.line34, DataLines.X2, DataLines.anLine34);
                 FillModel.FillingAsync(600, DataLines.wnd.line35, DataLines.Y2, DataLines.anLine35);
             }
@@ -115,6 +124,7 @@ namespace WinodwSize
             {
                 DataLines.ChckLine31 = false;
                 FillModel.Filling(DataLines.wnd.line29, DataLines.Y2, DataLines.anLine29);
+                FillModel.OnlyOpacity(DataLines.wnd.line30);
                 FillModel.FillingAsync(150, DataLines.wnd.line72, DataLines.X2, DataLines.anLine72);
             }
 
@@ -124,6 +134,7 @@ namespace WinodwSize
             {
                 DataLines.ChckLine34 = false;
                 FillModel.Filling(DataLines.wnd.line38, DataLines.X2, DataLines.anLine38);
+                FillModel.OnlyOpacity(DataLines.wnd.line37);
                 FillModel.FillingAsync(20, DataLines.wnd.line39, DataLines.Y2, DataLines.anLine39);
                 FillModel.FillingAsync(270, DataLines.wnd.line41, DataLines.Y2, DataLines.anLine41);
             }
@@ -131,6 +142,7 @@ namespace WinodwSize
             {
                 DataLines.ChckLine37 = false;
                 FillModel.Filling(DataLines.wnd.line33, DataLines.X2, DataLines.anLine33);
+                FillModel.OnlyOpacity(DataLines.wnd.line34);
                 FillModel.FillingAsync(20, DataLines.wnd.line35, DataLines.Y2, DataLines.anLine35);
                 FillModel.FillingAsync(300, DataLines.wnd.line31, DataLines.Y2, DataLines.anLine31);
             }
@@ -141,12 +153,14 @@ namespace WinodwSize
             {
                 DataLines.ChckLine38 = false;
                 FillModel.Filling(DataLines.wnd.line44, DataLines.X2, DataLines.anLine44);
+                FillModel.OnlyOpacity(DataLines.wnd.line43);
                 FillModel.FillingAsync(75, DataLines.wnd.line45, DataLines.Y2, DataLines.anLine45);
             }
             if (StateButton.Button[3].IsState == true && DataLines.wnd.line43.Opacity == 1 && DataLines.wnd.line37.Opacity == 0 && DataLines.ChckLine43 == true)
             {
                 DataLines.ChckLine43 = false;
                 FillModel.Filling(DataLines.wnd.line37, DataLines.X2, DataLines.anLine37);
+                FillModel.OnlyOpacity(DataLines.wnd.line38);
                 FillModel.FillingAsync(20, DataLines.wnd.line41, DataLines.Y2, DataLines.anLine41);
                 FillModel.FillingAsync(280, DataLines.wnd.line39, DataLines.Y2, DataLines.anLine39);
             }
@@ -157,6 +171,7 @@ namespace WinodwSize
             {
                 DataLines.ChckLine2 = false;
                 FillModel.Filling(DataLines.wnd.line43, DataLines.X2, DataLines.anLine43);
+                FillModel.OnlyOpacity(DataLines.wnd.line44);
                 FillModel.FillingAsync(230, DataLines.wnd.line45, DataLines.Y2, DataLines.anLine45);
             }
         }

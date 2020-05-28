@@ -22,5 +22,10 @@ namespace WinodwSize
             ln.Opacity = 1;
             ln.BeginAnimation(X2, AnLines);
         }
+
+        public static void OnlyOpacity(Line ln)
+        {
+            ln.Opacity = 1;
+        }
     }
 }
