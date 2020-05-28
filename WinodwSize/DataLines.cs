@@ -423,7 +423,7 @@ namespace WinodwSize
                 );
             anLine27.KeyFrames.Add(
                 new LinearDoubleKeyFrame(
-                    104, // Target value (KeyValue)
+                    65, // Target value (KeyValue)
                     KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.3/*была 1*/))) // KeyTime
                 );
 
@@ -968,6 +968,7 @@ namespace WinodwSize
                 );
 
 
+            anLine2.Completed += new EventHandler(AnLine2_Completed);
             anLine3.Completed += new EventHandler(AnLine3_Completed);
             anLine4.Completed += new EventHandler(AnLine4_Completed);
             anLine5.Completed += new EventHandler(AnLine5_Completed);
@@ -1040,6 +1041,7 @@ namespace WinodwSize
             anLine72.Completed += new EventHandler(AnLine72_Completed);
         }
 
+        public static bool ChckLine2 { get; set; } = false;
         public static bool ChckLine3 { get; set; } = false;
         public static bool ChckLine4 { get; set; } = false;
         public static bool ChckLine5 { get; set; } = false;
@@ -1111,6 +1113,10 @@ namespace WinodwSize
         public static bool ChckLine71 { get; set; } = false;
         public static bool ChckLine72 { get; set; } = false;
 
+        private static void AnLine2_Completed(object sender, EventArgs e)
+        {
+            ChckLine2 = true;
+        }
         private static void AnLine3_Completed(object sender, EventArgs e)
         {
             ChckLine3 = true;
@@ -1157,7 +1163,7 @@ namespace WinodwSize
         }
         private static void AnLine14_Completed(object sender, EventArgs e)
         {
-            ChckLine15 = true;
+            ChckLine14 = true;
         }
         private static void AnLine15_Completed(object sender, EventArgs e)
         {
