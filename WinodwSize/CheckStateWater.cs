@@ -51,8 +51,6 @@ namespace WinodwSize
                 FillModel.FillingAsync(300, DataLines.wnd.line6, DataLines.Y2, DataLines.anLine6, DataLines.DoneAnim6);
                 FillModel.FillingAsync(300, DataLines.wnd.line9, DataLines.X2, DataLines.anLine9, DataLines.DoneAnim9);
                 FillModel.FillingAsync(600, DataLines.wnd.line10, DataLines.Y2, DataLines.anLine10, DataLines.DoneAnim10);
-                FillModel.FillingAsync(900, DataLines.wnd.line11, DataLines.Y2, DataLines.anLine11, DataLines.DoneAnim11);
-                FillModel.FillingAsync(1200, DataLines.wnd.line12, DataLines.X2, DataLines.anLine12, DataLines.DoneAnim12);
             }
 
 
