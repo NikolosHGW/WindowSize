@@ -36,5 +36,10 @@ namespace WinodwSize
             await Task.Delay(300);
             ln.Opacity = 1;
         }
+
+        public static void OnlyOpacity(Line ln)
+        {
+            ln.Opacity = 1;
+        }
     }
 }
