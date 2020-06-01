@@ -328,7 +328,7 @@ namespace WinodwSize
                 FillModel.OnlyOpacityAsync(DataLines.wnd.line17);
                 DataLines.ChckLine17 = true;
                 FillModel.OnlyOpacityAsync(DataLines.wnd.line18);
-                DataLines.ChckLine19 = true;
+                DataLines.ChckLine18 = true;
                 FillModel.FillingAsync(300, DataLines.wnd.line22, DataLines.Y2, DataLines.anLine22, DataLines.DoneAnim22);
                 FillModel.OnlyOpacityAsync(DataLines.wnd.line21);
                 DataLines.ChckLine21 = true;
