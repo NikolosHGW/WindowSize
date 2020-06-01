@@ -15,7 +15,6 @@ namespace WinodwSize
             ln.Opacity = 1;
             if (chck == true)
             {
-                chck = false;
                 ln.BeginAnimation(X2, AnLines);
             }
         }
@@ -26,7 +25,6 @@ namespace WinodwSize
             ln.Opacity = 1;
             if (chck == true)
             {
-                chck = false;
                 ln.BeginAnimation(X2, AnLines);
             }
         }
