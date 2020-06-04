@@ -12,7 +12,10 @@ namespace WinodwSize
         public static void CheckAnimation()
         {
             if (StateButton.ButtonPmpR[0].IsState == true && StateButton.Button[0].IsState == true
-                && StateButton.ButtonV[12].IsState == true && StateButton.Button[7].IsState == true
+                && (StateButton.ButtonV[12].IsState == true || (StateButton.Button[1].IsState == true
+                && StateButton.ButtonPmpL[0].IsState == true && StateButton.Button[10].IsState == true
+                && StateButton.ButtonV[11].IsState == true && StateButton.ButtonV[10].IsState == true))
+                && StateButton.Button[7].IsState == true
                 && StateButton.Button[6].IsState == true && StateButton.Button[5].IsState == true
                 && StateButton.ButtonV[9].IsState == true && StateButton.ButtonV[8].IsState == true
                 && StateButton.Button[4].IsState == true && StateButton.Button[3].IsState == true
@@ -45,7 +48,10 @@ namespace WinodwSize
 
             }
             if (StateButton.ButtonPmpR[0].IsState == false || StateButton.Button[0].IsState == false
-                || StateButton.ButtonV[12].IsState == false || StateButton.Button[7].IsState == false
+                || (StateButton.ButtonV[12].IsState == false && (StateButton.Button[1].IsState == false
+                || StateButton.ButtonPmpL[0].IsState == false || StateButton.Button[10].IsState == false
+                || StateButton.ButtonV[11].IsState == false || StateButton.ButtonV[10].IsState == false))
+                || StateButton.Button[7].IsState == false
                 || StateButton.Button[6].IsState == false || StateButton.Button[5].IsState == false
                 || StateButton.ButtonV[9].IsState == false || StateButton.ButtonV[8].IsState == false
                 || StateButton.Button[4].IsState == false || StateButton.Button[3].IsState == false
@@ -77,7 +83,7 @@ namespace WinodwSize
             }
 
             if (StateButton.ButtonPmpR[0].IsState == true && StateButton.Button[0].IsState == true && StateButton.Button[1].IsState == true
-                && StateButton.ButtonPmpL[0].IsState == true && StateButton.Button[10].IsState == true && StateButton.ButtonV[12].IsState == true
+                && StateButton.ButtonPmpL[0].IsState == true && StateButton.Button[10].IsState == true && StateButton.ButtonV[11].IsState == true
                 && StateButton.ButtonV[10].IsState == true && StateButton.Button[7].IsState == true && StateButton.Button[6].IsState == true
                 && StateButton.Button[5].IsState == true && StateButton.ButtonV[9].IsState == true && StateButton.ButtonV[8].IsState == true
                 && StateButton.Button[4].IsState == true && StateButton.Button[3].IsState == true && StateButton.Button[2].IsState == true
@@ -94,10 +100,10 @@ namespace WinodwSize
                 StateCirc2 = false;
             }
             if (StateButton.ButtonPmpR[0].IsState == false || StateButton.Button[0].IsState == false || StateButton.Button[1].IsState == false
-                && StateButton.ButtonPmpL[0].IsState == false || StateButton.Button[10].IsState == false || StateButton.ButtonV[12].IsState == false
-                && StateButton.ButtonV[10].IsState == false || StateButton.Button[7].IsState == false || StateButton.Button[6].IsState == false
-                && StateButton.Button[5].IsState == false || StateButton.ButtonV[9].IsState == false || StateButton.ButtonV[8].IsState == false
-                && StateButton.Button[4].IsState == false || StateButton.Button[3].IsState == false || StateButton.Button[2].IsState == false)
+                || StateButton.ButtonPmpL[0].IsState == false || StateButton.Button[10].IsState == false || StateButton.ButtonV[11].IsState == false
+                || StateButton.ButtonV[10].IsState == false || StateButton.Button[7].IsState == false || StateButton.Button[6].IsState == false
+                || StateButton.Button[5].IsState == false || StateButton.ButtonV[9].IsState == false || StateButton.ButtonV[8].IsState == false
+                || StateButton.Button[4].IsState == false || StateButton.Button[3].IsState == false || StateButton.Button[2].IsState == false)
             {
                 DataLines.wnd.line11a.Opacity = 0;
                 DataLines.wnd.line11a.BeginAnimation(Line.X2Property, null);
