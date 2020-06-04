@@ -8,6 +8,7 @@ namespace WinodwSize
     {
         public static void Check()
         {
+            Animation.CheckAnimation();
             if (StateButton.Button[0].IsState == true && StateButton.ButtonPmpR[0].IsState == false)
             {
                 DataLines.Chck = false;
