@@ -93,11 +93,15 @@
                 <Line x:Name="line3a28" X1="0" Y1="0" X2="0" Y2="-65" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="1206.7,564,354,188"/>
                 <Line x:Name="line4a30" X1="0" Y1="0" X2="0" Y2="-92" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="1206.7,474,355,278"/>
                 <Line x:Name="line5a32" X1="0" Y1="0" X2="0" Y2="-65" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="1206.7,356,355,395"/>
-                <Line x:Name="line6a34" X1="0" Y1="0" X2="-241" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="1208,292,348,463"/>
+                <Line x:Name="line6a34" X1="0" Y1="0" X2="-241" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="1208,291,348,463"/>
                 <Line x:Name="line7a38" X1="0" Y1="0" X2="-174" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="919,291,637,465"/>
                 <Line x:Name="line8a45" X1="0" Y1="0" X2="0" Y2="67" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="680.7,289,885,405"/>
                 <Line x:Name="line9a47" X1="0" Y1="0" X2="0" Y2="90" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="680.7,383,886,289"/>
                 <Line x:Name="line10a52" X1="0" Y1="0" X2="-28" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="683,445,872,311"/>
+                <Line x:Name="line11a" X1="0" Y1="0" X2="-1022" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="1208.5,291,349,458"/>
+                <Line x:Name="line12a" X1="0" Y1="0" X2="0" Y2="276" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="190,288,1376,197"/>
+                <Line x:Name="line13a" X1="0" Y1="0" X2="1021" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="187,563,364,193"/>
+                <Line x:Name="line14a" X1="0" Y1="0" X2="0" Y2="-274" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="1206.7,564,354,188"/>
                 <!--ЛИНИИ ДЛЯ ЦИРКУЛЯЦИИ-->
                 <!--<Button x:Name="button1" Width="41" Height="38" Opacity="1" Click="Button_Click" Canvas.Left="380" Canvas.Top="146" RenderTransformOrigin="0.537,0.569" Margin="406,169,1130,561">
                     <Image x:Name="pumpImage" Source="Resources/nasos.png" Width="41" Height="37"/>

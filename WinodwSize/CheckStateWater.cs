@@ -498,6 +498,15 @@ namespace WinodwSize
                 DataLines.ChckLine60 = true;
                 FillModel.FillingAsync(300, DataLines.wnd.line64, DataLines.X2, DataLines.anLine64, DataLines.DoneAnim64);
             }
+
+            if (StateButton.ButtonV[10].IsState == true && StateButton.ButtonV[11].IsState == true
+                && DataLines.wnd.line10.Opacity == 1 && DataLines.wnd.line11.Opacity == 0 && DataLines.ChckLine10 == true
+                && StateButton.ButtonPmpR[0].IsState == true && StateButton.Button[0].IsState == true)
+            {
+                DataLines.ChckLine10 = false;
+                FillModel.Filling(DataLines.wnd.line11, DataLines.Y2, DataLines.anLine11, DataLines.DoneAnim11);
+                FillModel.FillingAsync(300, DataLines.wnd.line12, DataLines.X2, DataLines.anLine12, DataLines.DoneAnim12);
+            }
         }
     }
 }

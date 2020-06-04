@@ -101,6 +101,11 @@ namespace WinodwSize
         public static DoubleAnimationUsingKeyFrames anLine8a45 = new DoubleAnimationUsingKeyFrames();
         public static DoubleAnimationUsingKeyFrames anLine9a47 = new DoubleAnimationUsingKeyFrames();
         public static DoubleAnimationUsingKeyFrames anLine10a52 = new DoubleAnimationUsingKeyFrames();
+        public static DoubleAnimationUsingKeyFrames anLine11a = new DoubleAnimationUsingKeyFrames();
+        public static DoubleAnimationUsingKeyFrames anLine12a = new DoubleAnimationUsingKeyFrames();
+        public static DoubleAnimationUsingKeyFrames anLine13a = new DoubleAnimationUsingKeyFrames();
+        public static DoubleAnimationUsingKeyFrames anLine14a = new DoubleAnimationUsingKeyFrames();
+        public static DoubleAnimationUsingKeyFrames anLine15a = new DoubleAnimationUsingKeyFrames();
 
         public static void InitializeLines()
         {
@@ -1126,6 +1131,59 @@ namespace WinodwSize
                     KeyTime.FromTimeSpan(TimeSpan.FromSeconds(5/*была 1*/))) // KeyTime
                 );
             anLine10a52.RepeatBehavior = RepeatBehavior.Forever;
+
+            //                                              Анимация Line11a
+            anLine11a.KeyFrames.Add(
+                new LinearDoubleKeyFrame(
+                    0, // Target value (KeyValue)
+                    KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))) // KeyTime
+                );
+            anLine11a.KeyFrames.Add(
+                new LinearDoubleKeyFrame(
+                    -1022, // Target value (KeyValue)
+                    KeyTime.FromTimeSpan(TimeSpan.FromSeconds(5/*была 1*/))) // KeyTime
+                );
+            anLine11a.RepeatBehavior = RepeatBehavior.Forever;
+
+            //                                              Анимация Line12a
+            anLine12a.KeyFrames.Add(
+                new LinearDoubleKeyFrame(
+                    0, // Target value (KeyValue)
+                    KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))) // KeyTime
+                );
+            anLine12a.KeyFrames.Add(
+                new LinearDoubleKeyFrame(
+                    276, // Target value (KeyValue)
+                    KeyTime.FromTimeSpan(TimeSpan.FromSeconds(5/*была 1*/))) // KeyTime
+                );
+            anLine12a.RepeatBehavior = RepeatBehavior.Forever;
+
+            //                                              Анимация Line13a
+            anLine13a.KeyFrames.Add(
+                new LinearDoubleKeyFrame(
+                    0, // Target value (KeyValue)
+                    KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))) // KeyTime
+                );
+            anLine13a.KeyFrames.Add(
+                new LinearDoubleKeyFrame(
+                    1021, // Target value (KeyValue)
+                    KeyTime.FromTimeSpan(TimeSpan.FromSeconds(5/*была 1*/))) // KeyTime
+                );
+            anLine13a.RepeatBehavior = RepeatBehavior.Forever;
+
+            //                                              Анимация Line14a
+            anLine14a.KeyFrames.Add(
+                new LinearDoubleKeyFrame(
+                    0, // Target value (KeyValue)
+                    KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))) // KeyTime
+                );
+            anLine14a.KeyFrames.Add(
+                new LinearDoubleKeyFrame(
+                    -274, // Target value (KeyValue)
+                    KeyTime.FromTimeSpan(TimeSpan.FromSeconds(5/*была 1*/))) // KeyTime
+                );
+            anLine14a.RepeatBehavior = RepeatBehavior.Forever;
+
 
 
             anLine0.Completed += new EventHandler(AnLine0_Completed);
