@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows;
 using System.Windows.Shapes;
 
 namespace WinodwSize
@@ -135,6 +136,7 @@ namespace WinodwSize
                 DataLines.wnd.line14a.Opacity = 0;
                 DataLines.wnd.line14a.BeginAnimation(Line.Y2Property, null);
                 Visa = false;
+                MessageBox.Show("Дом получил тепло!");
             }
         }
     }
