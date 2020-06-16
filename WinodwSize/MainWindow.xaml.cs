@@ -39,7 +39,7 @@ namespace WinodwSize
         }
         private static void TimerTick(object sender, EventArgs e)
         {
-            CheckStateWater.Check();
+            ForTimer.StartMethod();
         }
     }
 }

@@ -457,6 +457,14 @@
                 <TextBlock Text="ButtonSml[15]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1262,307,236,446" Opacity="{Binding Opa}"/>
                 <TextBlock Text="ButtonPmpL[0]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="343,237,1155,516" Opacity="{Binding Opa}"/>
                 <Button x:Name="INFO" Content="Info" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding InfoCommand}" Margin="242,145,1251,545"/>
+                <!--ПАРАМЕТРЫ-->
+                <TextBlock x:Name="P1" Text="{Binding P1}" FontSize="20" TextAlignment="Center" Width="58" Height="33" Margin="366.5,99,1152,638"/>
+                <TextBlock x:Name="P2" Text="{Binding P2}" FontSize="20" TextAlignment="Center" Width="58" Height="33" Margin="428.8,99,1091,636"/>
+                <TextBlock x:Name="T1" Text="{Binding T1}" FontSize="20" TextAlignment="Center" Width="58" Height="33" Margin="490.5,99,1028,638"/>
+                <TextBlock x:Name="T2" Text="{Binding T2}" FontSize="20" TextAlignment="Center" Width="57" Height="33" Margin="551.3,99,966,636"/>
+                <TextBlock x:Name="G1" Text="{Binding G1}" FontSize="20" TextAlignment="Center" Width="89" Height="33" Margin="614.5,99,875,638"/>
+                <TextBlock x:Name="G2" Text="{Binding G2}" FontSize="20" TextAlignment="Center" Width="90" Height="33" Margin="708.5,99,778,640"/>
+                <TextBlock x:Name="Gp" Text="{Binding Gp}" FontSize="20" TextAlignment="Center" Width="91" Height="33" Margin="804.5,99,682,638"/>
             </Grid>
         </ScrollViewer>
     </Border>

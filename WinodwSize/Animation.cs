@@ -9,6 +9,8 @@ namespace WinodwSize
     {
         public static bool StateCirc { get; private set; } = true;
         public static bool StateCirc2 { get; private set; } = true;
+        public static bool Visa { get; private set; } = true;
+        public static bool Visa2 { get; private set; } = true;
         public static void CheckAnimation()
         {
             if (StateButton.ButtonPmpR[0].IsState == true && StateButton.Button[0].IsState == true
@@ -99,11 +101,12 @@ namespace WinodwSize
                 DataLines.wnd.line14a.BeginAnimation(Line.Y2Property, DataLines.anLine14a);
                 StateCirc2 = false;
             }
-            if (StateButton.ButtonPmpR[0].IsState == false || StateButton.Button[0].IsState == false || StateButton.Button[1].IsState == false
+            if (Visa2 == true
+                && (StateButton.ButtonPmpR[0].IsState == false || StateButton.Button[0].IsState == false || StateButton.Button[1].IsState == false
                 || StateButton.ButtonPmpL[0].IsState == false || StateButton.Button[10].IsState == false || StateButton.ButtonV[11].IsState == false
                 || StateButton.ButtonV[10].IsState == false || StateButton.Button[7].IsState == false || StateButton.Button[6].IsState == false
                 || StateButton.Button[5].IsState == false || StateButton.ButtonV[9].IsState == false || StateButton.ButtonV[8].IsState == false
-                || StateButton.Button[4].IsState == false || StateButton.Button[3].IsState == false || StateButton.Button[2].IsState == false)
+                || StateButton.Button[4].IsState == false || StateButton.Button[3].IsState == false || StateButton.Button[2].IsState == false))
             {
                 DataLines.wnd.line11a.Opacity = 0;
                 DataLines.wnd.line11a.BeginAnimation(Line.X2Property, null);
@@ -114,6 +117,24 @@ namespace WinodwSize
                 DataLines.wnd.line14a.Opacity = 0;
                 DataLines.wnd.line14a.BeginAnimation(Line.Y2Property, null);
                 StateCirc2 = true;
+            }
+            if (StateButton.ButtonSml[13].IsState == true && StateButton.ButtonSml[14].IsState == true)
+            {
+                Visa2 = false;
+            }
+            if (Visa == true
+                && StateButton.ButtonSml[13].IsState == true && StateButton.ButtonSml[14].IsState == true
+                && (StateButton.ButtonV[8].IsState == false || StateButton.ButtonV[9].IsState == false))
+            {
+                DataLines.wnd.line11a.Opacity = 1;
+                DataLines.wnd.line11a.BeginAnimation(Line.X2Property, DataLines.anLine11a);
+                DataLines.wnd.line12a.Opacity = 0;
+                DataLines.wnd.line12a.BeginAnimation(Line.Y2Property, null);
+                DataLines.wnd.line13a.Opacity = 1;
+                DataLines.wnd.line13a.BeginAnimation(Line.X2Property, DataLines.anLine13a);
+                DataLines.wnd.line14a.Opacity = 0;
+                DataLines.wnd.line14a.BeginAnimation(Line.Y2Property, null);
+                Visa = false;
             }
         }
     }

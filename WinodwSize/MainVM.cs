@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Windows.Threading;
 
 namespace WinodwSize
 {
@@ -110,6 +111,7 @@ namespace WinodwSize
                   (stateCommand = new RelayCommand(obj =>
                   {
                       ChangeState((Button)obj);
+                      if (forTimer == true) ChangeParam();
                   }));
             }
         }
@@ -124,6 +126,129 @@ namespace WinodwSize
         {
             if (PropertyChanged != null)
                 PropertyChanged(this, new PropertyChangedEventArgs(prop));
+        }
+
+        //ПАРАМЕТРЫ
+        private double p1;
+        public double P1
+        {
+            get
+            {
+                return p1;
+            }
+            set
+            {
+                p1 = value;
+                OnPropertyChanged("P1");
+            }
+        }
+
+        private double p2;
+        public double P2
+        {
+            get
+            {
+                return p2;
+            }
+            set
+            {
+                p2 = value;
+                OnPropertyChanged("P2");
+            }
+        }
+
+        private int t1;
+        public int T1
+        {
+            get
+            {
+                return t1;
+            }
+            set
+            {
+                t1 = value;
+                OnPropertyChanged("T1");
+            }
+        }
+
+        private int t2;
+        public int T2
+        {
+            get
+            {
+                return t2;
+            }
+            set
+            {
+                t2 = value;
+                OnPropertyChanged("T2");
+            }
+        }
+
+        private int g1;
+        public int G1
+        {
+            get
+            {
+                return g1;
+            }
+            set
+            {
+                g1 = value;
+                OnPropertyChanged("G1");
+            }
+        }
+
+        private int g2;
+        public int G2
+        {
+            get
+            {
+                return g2;
+            }
+            set
+            {
+                g2 = value;
+                OnPropertyChanged("G2");
+            }
+        }
+
+        private int gp;
+        public int Gp
+        {
+            get
+            {
+                return gp;
+            }
+            set
+            {
+                gp = value;
+                OnPropertyChanged("Gp");
+            }
+        }
+        private bool forTimer = true;
+        void ChangeParam()
+        {
+            if (forTimer == true) StartTimerTick();
+        }
+        private void StartTimerTick()
+        {
+            forTimer = false;
+            DispatcherTimer timer = new DispatcherTimer();  // если надо, то в скобках указываем приоритет, например DispatcherPriority.Render
+            timer.Tick += new EventHandler(TimerTick);
+            timer.Interval = new TimeSpan(0, 0, 0, 0, 300);
+            timer.Start();
+        }
+        private void TimerTick(object sender, EventArgs e)
+        {
+            Parameters.Calc();
+            P1 = Parameters.P1;
+            P2 = Parameters.P2;
+            T1 = Parameters.T1;
+            T2 = Parameters.T2;
+            G1 = Parameters.G1;
+            G2 = Parameters.G2;
+            Gp = Parameters.Gp;
         }
 
         //                                            ВРЕМЕННЫЙ КОД ДЛЯ ИНФО

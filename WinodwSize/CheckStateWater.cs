@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows.Media;
 
 namespace WinodwSize
 {
@@ -8,7 +9,6 @@ namespace WinodwSize
     {
         public static void Check()
         {
-            Animation.CheckAnimation();
             if (StateButton.Button[0].IsState == true && StateButton.ButtonPmpR[0].IsState == false)
             {
                 DataLines.Chck = false;
@@ -506,6 +506,25 @@ namespace WinodwSize
                 DataLines.ChckLine10 = false;
                 FillModel.Filling(DataLines.wnd.line11, DataLines.Y2, DataLines.anLine11, DataLines.DoneAnim11);
                 FillModel.FillingAsync(300, DataLines.wnd.line12, DataLines.X2, DataLines.anLine12, DataLines.DoneAnim12);
+            }
+
+            if (StateButton.ButtonSml[10].IsState == true && StateButton.ButtonV[10].IsState == true && StateButton.ButtonV[11].IsState == true
+                && StateButton.ButtonPmpL[0].IsState == true)
+            {
+                DataLines.wnd.line0a13.Stroke = Brushes.Red;
+                DataLines.wnd.line1a17.Stroke = Brushes.Red;
+                DataLines.wnd.line2a25.Stroke = Brushes.Red;
+                DataLines.wnd.line3a28.Stroke = Brushes.Red;
+                DataLines.wnd.line4a30.Stroke = Brushes.Red;
+                DataLines.wnd.line13a.Stroke = Brushes.Red;
+                DataLines.wnd.line9.Stroke = Brushes.Red;
+                DataLines.wnd.line14.Stroke = Brushes.Red;
+                DataLines.wnd.line18.Stroke = Brushes.Red;
+                DataLines.wnd.line26.Stroke = Brushes.Red;
+                DataLines.wnd.line30.Stroke = Brushes.Red;
+                DataLines.wnd.line28.Stroke = Brushes.Red;
+                DataLines.wnd.line10.Stroke = Brushes.Red;
+                DataLines.wnd.line8.Stroke = Brushes.Red;
             }
         }
     }
