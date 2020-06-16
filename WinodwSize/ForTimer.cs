@@ -10,6 +10,8 @@ namespace WinodwSize
         {
             CheckStateWater.Check();
             Animation.CheckAnimation();
+            PumpAnimVM.StartPmpR();
+            PumpAnimVM.StartPmpL();
         }
     }
 }

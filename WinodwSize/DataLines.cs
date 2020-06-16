@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Windows;
+using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 
@@ -109,6 +110,85 @@ namespace WinodwSize
 
         public static void InitializeLines()
         {
+            //                                              Анимация насоса
+            MediaPlayer mediaStart = new MediaPlayer();
+            //mediaStart.Open(new Uri("C:/Users/Николос/source/repos/teplo/Teplo/Resources/Start.mp3"/*@"Resources/Start.mp3"*/, UriKind.RelativeOrAbsolute)); /*C:/Users/Nikolos/Downloads/Запуск.mp3*/
+            PumpAnimVM.MStart = mediaStart;
+            MediaPlayer mediaStop = new MediaPlayer();
+            //mediaStop.Open(new Uri("C:/Users/Николос/Downloads/Останов.mp3", UriKind.RelativeOrAbsolute));
+            PumpAnimVM.MStop = mediaStop;
+
+            DoubleAnimation blade1Anim = new DoubleAnimation();
+            PumpAnimVM.Blade1Anim = blade1Anim;
+            PumpAnimVM.Blade1 = DataLines.wnd.blade1;
+            DoubleAnimation blade2Anim = new DoubleAnimation();
+            PumpAnimVM.Blade2Anim = blade2Anim;
+            PumpAnimVM.Blade2 = DataLines.wnd.blade2;
+
+            blade1Anim.From = 0;
+            blade1Anim.To = 360;
+            blade1Anim.BeginTime = TimeSpan.FromSeconds(1);
+            blade1Anim.Duration = TimeSpan.FromSeconds(0.3);
+            blade1Anim.RepeatBehavior = RepeatBehavior.Forever;
+            blade2Anim.From = 0;
+            blade2Anim.To = 360;
+            blade2Anim.BeginTime = TimeSpan.FromSeconds(1);
+            blade2Anim.Duration = TimeSpan.FromSeconds(0.3);
+            blade2Anim.RepeatBehavior = RepeatBehavior.Forever;
+
+            DoubleAnimation blade21Anim = new DoubleAnimation();
+            PumpAnimVM.Blade21Anim = blade21Anim;
+            PumpAnimVM.Blade21 = DataLines.wnd.blade21;
+            DoubleAnimation blade22Anim = new DoubleAnimation();
+            PumpAnimVM.Blade22Anim = blade22Anim;
+            PumpAnimVM.Blade22 = DataLines.wnd.blade22;
+
+            blade21Anim.From = 0;
+            blade21Anim.To = -360;
+            blade21Anim.BeginTime = TimeSpan.FromSeconds(1);
+            blade21Anim.Duration = TimeSpan.FromSeconds(0.3);
+            blade21Anim.RepeatBehavior = RepeatBehavior.Forever;
+            blade22Anim.From = 0;
+            blade22Anim.To = -360;
+            blade22Anim.BeginTime = TimeSpan.FromSeconds(1);
+            blade22Anim.Duration = TimeSpan.FromSeconds(0.3);
+            blade22Anim.RepeatBehavior = RepeatBehavior.Forever;
+
+            DoubleAnimation blade31Anim = new DoubleAnimation();
+            PumpAnimVM.Blade31Anim = blade31Anim;
+            PumpAnimVM.Blade31 = DataLines.wnd.blade31;
+            DoubleAnimation blade32Anim = new DoubleAnimation();
+            PumpAnimVM.Blade32Anim = blade32Anim;
+            PumpAnimVM.Blade32 = DataLines.wnd.blade32;
+
+            blade31Anim.From = 0;
+            blade31Anim.To = -360;
+            blade31Anim.BeginTime = TimeSpan.FromSeconds(1);
+            blade31Anim.Duration = TimeSpan.FromSeconds(0.3);
+            blade31Anim.RepeatBehavior = RepeatBehavior.Forever;
+            blade32Anim.From = 0;
+            blade32Anim.To = -360;
+            blade32Anim.BeginTime = TimeSpan.FromSeconds(1);
+            blade32Anim.Duration = TimeSpan.FromSeconds(0.3);
+            blade32Anim.RepeatBehavior = RepeatBehavior.Forever;
+
+            DoubleAnimation blade41Anim = new DoubleAnimation();
+            PumpAnimVM.Blade41Anim = blade41Anim;
+            PumpAnimVM.Blade41 = DataLines.wnd.blade41;
+            DoubleAnimation blade42Anim = new DoubleAnimation();
+            PumpAnimVM.Blade42Anim = blade42Anim;
+            PumpAnimVM.Blade42 = DataLines.wnd.blade42;
+
+            blade41Anim.From = 0;
+            blade41Anim.To = -360;
+            blade41Anim.BeginTime = TimeSpan.FromSeconds(1);
+            blade41Anim.Duration = TimeSpan.FromSeconds(0.3);
+            blade41Anim.RepeatBehavior = RepeatBehavior.Forever;
+            blade42Anim.From = 0;
+            blade42Anim.To = -360;
+            blade42Anim.BeginTime = TimeSpan.FromSeconds(1);
+            blade42Anim.Duration = TimeSpan.FromSeconds(0.3);
+            blade42Anim.RepeatBehavior = RepeatBehavior.Forever;
             //                                              Анимация Line0
             anLine0.KeyFrames.Add(
                 new LinearDoubleKeyFrame(

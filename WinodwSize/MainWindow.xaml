@@ -86,6 +86,47 @@
                 <Line x:Name="line71" X1="0" Y1="0" X2="24" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="2" Margin="1184,425,363,333"/>
                 <Line x:Name="line72" X1="0" Y1="0" X2="-24" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="2" Margin="1208,424,343,333"/>
                 <!--ЛИНИИ-->
+                <!--ЛОПАСТИ НАСОСОВ-->
+                <Line x:Name="blade1" X1="0" Y1="0" X2="60" Y2="0" Opacity="1" Stroke="Gray" StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Margin="395,190,1122,576">
+                    <Line.RenderTransform>
+                        <RotateTransform Angle="0"/>
+                    </Line.RenderTransform>
+                </Line>
+                <Line x:Name="blade2" X1="0" Y1="0" X2="0" Y2="60" Opacity="1" Stroke="Gray" StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Margin="426,158,1149,550">
+                    <Line.RenderTransform>
+                        <RotateTransform Angle="0"/>
+                    </Line.RenderTransform>
+                </Line>
+                <Line x:Name="blade21" X1="0" Y1="0" X2="50" Y2="0" Opacity="1" Stroke="Gray" StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Margin="358,290,1169,476">
+                    <Line.RenderTransform>
+                        <RotateTransform Angle="0"/>
+                    </Line.RenderTransform>
+                </Line>
+                <Line x:Name="blade22" X1="0" Y1="0" X2="0" Y2="50" Opacity="1" Stroke="Gray" StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Margin="383,266,1192,452">
+                    <Line.RenderTransform>
+                        <RotateTransform Angle="0"/>
+                    </Line.RenderTransform>
+                </Line>
+                <Line x:Name="blade31" X1="0" Y1="0" X2="50" Y2="0" Opacity="1" Stroke="Gray" StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Margin="356,369,1171,397">
+                    <Line.RenderTransform>
+                        <RotateTransform Angle="0"/>
+                    </Line.RenderTransform>
+                </Line>
+                <Line x:Name="blade32" X1="0" Y1="0" X2="0" Y2="50" Opacity="1" Stroke="Gray" StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Margin="382,344,1193,374">
+                    <Line.RenderTransform>
+                        <RotateTransform Angle="0"/>
+                    </Line.RenderTransform>
+                </Line>
+                <Line x:Name="blade41" X1="0" Y1="0" X2="50" Y2="0" Opacity="1" Stroke="Gray" StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Margin="361,449,1166,317">
+                    <Line.RenderTransform>
+                        <RotateTransform Angle="0"/>
+                    </Line.RenderTransform>
+                </Line>
+                <Line x:Name="blade42" X1="0" Y1="0" X2="0" Y2="50" Opacity="1" Stroke="Gray" StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Margin="387,424,1188,294">
+                    <Line.RenderTransform>
+                        <RotateTransform Angle="0"/>
+                    </Line.RenderTransform>
+                </Line>
                 <!--ЛИНИИ ДЛЯ ЦИРКУЛЯЦИИ-->
                 <Line x:Name="line0a13" X1="0" Y1="0" X2="68" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="629,563,880,192"/>
                 <Line x:Name="line1a17" X1="0" Y1="0" X2="174" Y2="0" Opacity="0" Stroke="Blue" StrokeThickness="7" Margin="745,563,657,192"/>
